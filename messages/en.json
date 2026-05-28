@@ -1,0 +1,471 @@
+{
+  "Brand": {
+    "name": "LAZIRON",
+    "tagline": "Industrial quality at an affordable price."
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back": "Back to home"
+  },
+  "Nav": {
+    "home": "Home",
+    "products": "Products",
+    "industrySolutions": "Industry Solutions",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Common": {
+    "learnMore": "Learn more",
+    "requestQuote": "Request a quote",
+    "viewAllProducts": "View all products",
+    "backToProducts": "Back to products",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "swipeHint": "Swipe for more",
+    "details": "Details",
+    "offer": "Quote",
+    "contactUs": "Contact us",
+    "language": "Language"
+  },
+  "Home": {
+    "metaTitle": "LAZIRON — Sheet & Tube Metal Laser Cutting Machines",
+    "metaDescription": "Fiber laser cutting machines for sheet and tube metal. Industrial quality at an affordable price.",
+    "heroEyebrow": "Fiber laser cutting",
+    "heroTitle": "Sheet & tube metal laser cutting machines",
+    "heroSubtitle": "High-precision cutting solutions for metal sheets and profiles: high productivity and low operating costs.",
+    "heroTagline": "You pay for the technology, not the name.",
+    "heroCtaPrimary": "View products",
+    "heroCtaSecondary": "Request a quote",
+    "featuresTitle": "Why LAZIRON?",
+    "featuresSubtitle": "Industrial performance with no compromise on price.",
+    "feature1Title": "High precision",
+    "feature1Desc": "State-of-the-art fiber laser sources for clean, repeatable cuts.",
+    "feature2Title": "High productivity",
+    "feature2Desc": "Fast cutting speeds that reduce production time and increase output.",
+    "feature3Title": "Low costs",
+    "feature3Desc": "Low energy consumption and minimal maintenance for a low total cost.",
+    "feature4Title": "60-month warranty",
+    "feature4Desc": "Extended coverage on the equipment and critical components, for a worry-free investment.",
+    "productsTitle": "Our products",
+    "productsSubtitle": "Machines built for cutting sheet and tube metal.",
+    "ctaTitle": "Ready to scale your production?",
+    "ctaText": "Tell us what you cut and we'll come back with a tailored configuration and quote.",
+    "aboutEyebrow": "About us",
+    "aboutTitle": "Industrial quality, at the lowest price in Romania",
+    "aboutText": "We are a Romanian team that brings laser cutting machines straight from the factory, without middlemen and without the markup of expensive brands. You pay for the technology, not the name on the cover. We help you choose the configuration, install it, train your team and handle service, all in your language.",
+    "offerBadge": "Price guarantee",
+    "offerTitle": "The best price, guaranteed",
+    "offerText": "We are sure our prices are the lowest. If you find the same machine cheaper elsewhere, you get an extra 5-10% discount from us. That is how confident we are in the LAZIRON offer.",
+    "applicationsTitle": "Recommended applications",
+    "applicationsSubtitle": "Where LAZIRON machines deliver the best results.",
+    "applicationsCta": "See industry solutions",
+    "laserEyebrow": "Affordable quality",
+    "laserTitle": "Laser technology, at a fair price",
+    "laserSubtitle": "The same components the major manufacturers use, in a machine any serious workshop can afford. You pay for the technology, not for the name on the cover.",
+    "laserHighlight": "60-month warranty on the equipment",
+    "laserStep1": "Machine ready",
+    "laserStep2": "Head positioning",
+    "laserStep3": "Beam focusing",
+    "laserStep4": "Laser cutting",
+    "laserStep5": "Finished parts",
+    "customEyebrow": "Custom request",
+    "customTitle": "Can't find what you need? We'll find it for you.",
+    "customText": "Tell us what machine you need, even if it isn't listed on the site. Fill in the form with your requirement and we'll source the right equipment and come back with an offer.",
+    "customCta": "Send a request"
+  },
+  "Products": {
+    "metaTitle": "Products — LAZIRON",
+    "metaDescription": "The LAZIRON range of laser cutting machines for sheet and tube metal.",
+    "title": "Products",
+    "subtitle": "Industrial quality at an affordable price. A full range of laser machines for sheet, tube, welding and cleaning, chosen for workshops that don't want a huge investment.",
+    "seriesLabel": "Series",
+    "empty": "No products are available at the moment.",
+    "relatedEyebrow": "Recommended",
+    "relatedTitle": "Similar products",
+    "categories": {
+      "sheet": "Sheet laser cutting",
+      "tube": "Tube laser cutting",
+      "sheet-tube": "Sheet & tube laser cutting",
+      "bending": "Press brakes (bending)",
+      "welding": "Laser welding",
+      "cleaning": "Laser cleaning"
+    }
+  },
+  "ProductDetail": {
+    "overviewTitle": "Overview",
+    "descriptionHeading": "About this product",
+    "keySpecsTitle": "Key specs",
+    "warrantyBadge": "60-month warranty",
+    "specsTitle": "Technical specifications",
+    "featuresTitle": "Key features",
+    "applicationsTitle": "Applications",
+    "ctaTitle": "Interested in this product?",
+    "ctaText": "Contact us for a personalized quote and full technical details.",
+    "specLabels": {
+      "laserPower": "Laser power",
+      "workingArea": "Working area",
+      "maxSpeed": "Max positioning speed",
+      "accuracy": "Positioning accuracy",
+      "tubeDiameter": "Tube diameter",
+      "tubeLength": "Tube length",
+      "cooling": "Cooling system",
+      "control": "Control system",
+      "powerSupply": "Power supply"
+    }
+  },
+  "Origin": {
+    "eyebrow": "From China, for Romania",
+    "title": "Technology from China, full support in Romania",
+    "slogan": "Industrial quality at an affordable price.",
+    "text": "We bring laser cutting machines made in China to Romania, built with the same components the major manufacturers use. You pay for technology, not for an expensive name. We handle shipping, commissioning, training and service, all in your language.",
+    "point1Title": "Affordable price",
+    "point1Desc": "Efficient manufacturing in China, without the European brand markup. You invest in the technology, not in a costly logo.",
+    "point2Title": "Local support",
+    "point2Desc": "A local team for installation, training and fast service, with a 60-month warranty and spare parts available in Romania.",
+    "point3Title": "Verified quality",
+    "point3Desc": "Free inspection before delivery and CE-certified components built to international standards.",
+    "cta": "Send a request"
+  },
+  "Industry": {
+    "metaTitle": "Industry Solutions — LAZIRON",
+    "metaDescription": "Laser cutting solutions for various industries: automotive, metal construction, furniture, agriculture and more.",
+    "title": "Industry Solutions",
+    "subtitle": "Verified industrial quality for any industry, at a price any serious workshop can afford. Local support, warranty and spare parts available.",
+    "item1Title": "Automotive",
+    "item1Desc": "Metal components and sub-assemblies with tight tolerances for the automotive sector.",
+    "item2Title": "Metal construction",
+    "item2Desc": "Profiles, beams and structures cut quickly and precisely for construction.",
+    "item3Title": "Metal furniture",
+    "item3Desc": "Decorative and functional parts for furniture and interior design.",
+    "item4Title": "Agricultural equipment",
+    "item4Desc": "Rugged components for agricultural machinery and equipment.",
+    "item5Title": "Signage & design",
+    "item5Desc": "3D letters, logos and decorative metal elements.",
+    "item6Title": "Subcontracting",
+    "item6Desc": "On-demand cutting services for workshops and manufacturers.",
+    "laserEyebrow": "Laser technology",
+    "laserTitle": "What a LAZIRON laser can do",
+    "laserSubtitle": "Four industrial operations delivered by the same fiber laser technology, with precision and repeatability.",
+    "laserAnim1Title": "Sheet cutting",
+    "laserAnim1Desc": "Plates and profiles with clean, burr-free edges, ready to assemble.",
+    "laserAnim2Title": "Tube cutting",
+    "laserAnim2Desc": "Round, square and rectangular tubes, drilled and cut at any angle.",
+    "laserAnim3Title": "Laser welding",
+    "laserAnim3Desc": "Fine, strong seams for metal assemblies, with minimal thermal distortion.",
+    "laserAnim4Title": "Laser cleaning",
+    "laserAnim4Desc": "Removes rust, paint or oxides with no solvents and no damage to the material.",
+    "laserPitchEyebrow": "LAZIRON industrial solutions",
+    "laserPitch1Title": "Pay for the technology, not the name.",
+    "laserPitch1Text": "A Romanian team, hand-picked machines and a fair price. Industrial quality without a huge investment.",
+    "laserPitch2Title": "More parts, less money.",
+    "laserPitch2Text": "Steady productivity at an investment any serious workshop can afford.",
+    "laserPitch3Title": "Clean welds, no rework.",
+    "laserPitch3Text": "Fine seams with minimal heat distortion. Warranty and service in your language, from the local team.",
+    "laserPitch4Title": "No solvents, no abrasives.",
+    "laserPitch4Text": "Skip the consumables and extra labour. A fast, accessible investment, backed locally by the LAZIRON team."
+  },
+  "Contact": {
+    "metaTitle": "Contact — LAZIRON",
+    "metaDescription": "Contact the LAZIRON team for quotes and technical information.",
+    "title": "Contact us",
+    "subtitle": "Tell us what you need and we will get back to you with a personalized quote.",
+    "lead": "Our laser cutting machines offer the lowest price for the same configuration and the highest configuration for the same price. We have a professional technical and after-sales team, providing 24/7 service from production to after-sales, so you can produce without worries.",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formPhone": "Phone",
+    "formCompany": "Company",
+    "formMessage": "Message",
+    "formSubmit": "Send message",
+    "formSuccess": "Thank you! Your message has been sent. We will get back to you shortly.",
+    "formNote": "Marked fields are required.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone"
+  },
+  "About": {
+    "metaTitle": "About us — LAZIRON",
+    "metaDescription": "LAZIRON brings laser cutting, bending, welding and cleaning machines at an affordable price, with full local support.",
+    "title": "About us",
+    "subtitle": "Who we are and why you can trust LAZIRON.",
+    "subtitleTagline": "Industrial quality at an affordable price. You pay for the technology, not the name.",
+    "eyebrow": "Our mission",
+    "heading": "Bringing industrial performance closer to your workshop",
+    "lead": "Industrial quality at an affordable price.",
+    "body1": "LAZIRON is a Romanian project that brings laser cutting, bending, welding and cleaning machines straight from the factory. We pick equipment built with the same components the major manufacturers use and offer it at a fair price, without the markup of expensive brands.",
+    "body2": "We work transparently: we explain exactly what you are buying, help you choose the right configuration and stay with you after delivery, with training and service in your language.",
+    "point1Title": "Romanian team",
+    "point1Desc": "We speak the same language and understand what local workshops really need.",
+    "point2Title": "Lifetime support",
+    "point2Desc": "Technical assistance, training and fast service, in your language.",
+    "point3Title": "60-month warranty",
+    "point3Desc": "Extended coverage on the equipment and access to spare parts when you need them.",
+    "point4Title": "Pre-delivery inspection",
+    "point4Desc": "See the machine tested on your material, live or on site, before we ship it.",
+    "point5Title": "CE-certified components",
+    "point5Desc": "Laser sources and components built to international standards.",
+    "point6Title": "Best price, guaranteed",
+    "point6Desc": "If you find the same machine cheaper elsewhere, you get a 5-10% discount from us.",
+    "ctaTitle": "Want to know more?",
+    "ctaText": "Write to us and we'll come back with details, configurations and a tailored quote.",
+    "officeTitle": "Office",
+    "officeMapsCta": "View on map"
+  },
+  "Quote": {
+    "title": "Request a quote",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send request",
+    "success": "Thank you! We received your request and will get back to you shortly with a personalized quote.",
+    "note": "Marked fields are required.",
+    "close": "Close"
+  },
+  "Auth": {
+    "accountLabel": "Account",
+    "loginMetaTitle": "Sign in — LAZIRON",
+    "registerMetaTitle": "Create account — LAZIRON",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to continue.",
+    "registerTitle": "Create a new account",
+    "registerSubtitle": "Sign up in just a few seconds.",
+    "name": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "loginCta": "Sign in",
+    "registerCta": "Create account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "registerLink": "Sign up",
+    "loginLink": "Sign in",
+    "termsLabel": "I agree with the",
+    "termsLink": "terms and conditions",
+    "passwordHint": "At least 8 characters",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "demoNotice": "Design preview. Real authentication will be wired in later."
+  },
+  "CookieBanner": {
+    "title": "We use cookies",
+    "body": "We use only one essential cookie to remember your language. No tracking, no advertising.",
+    "accept": "Got it",
+    "customize": "Customize",
+    "rejectAll": "Essential only",
+    "save": "Save preferences",
+    "learnMore": "See the policy",
+    "categoryEssential": "Essential cookies",
+    "categoryEssentialDesc": "Required for the site to work. Cannot be disabled.",
+    "categoryPreferences": "Preferences",
+    "categoryPreferencesDesc": "Remembers your chosen language for future visits.",
+    "required": "Required"
+  },
+  "Legal": {
+    "privacy": {
+      "metaTitle": "Privacy Policy — LAZIRON",
+      "metaDescription": "How LAZIRON handles your personal data, in line with the GDPR.",
+      "title": "Privacy Policy",
+      "linkLabel": "Privacy Policy",
+      "lead": "We respect the privacy of your data and comply with Regulation (EU) 2016/679 (GDPR).",
+      "sections": [
+        {
+          "heading": "Data controller",
+          "body": "The laziron.com website is operated by LAZIRON, with office at Laziron Office, Kerry Plaza Tower 2, No. 1 Zhong Xin Fourth Road, Futian District, Shenzhen, Guangdong 518046, China. For any request about your personal data, contact us through the form on the Contact page."
+        },
+        {
+          "heading": "Personal data we collect",
+          "body": "We collect: (a) data you submit through the contact form (name, company, message and any other details you choose to provide); (b) technical data (IP address, user-agent, access logs) recorded automatically by our hosting provider for security and diagnostics; (c) preferences (selected language) stored in an essential cookie. We do not collect special category data (health, political opinions, biometric data, etc.)."
+        },
+        {
+          "heading": "Purposes and legal basis",
+          "body": "We process your data to: reply to requests and send tailored quotes (Art. 6(1)(b) GDPR — pre-contractual measures); perform contracts, including delivery, installation, warranty and service (Art. 6(1)(b)); secure the site and prevent fraud (Art. 6(1)(f) — legitimate interest); comply with fiscal and accounting legal obligations (Art. 6(1)(c)); send marketing communications, where applicable, based on your consent (Art. 6(1)(a)), which you may withdraw at any time."
+        },
+        {
+          "heading": "Retention period",
+          "body": "Form contact data is kept for as long as there is an active interest, but no more than 3 years from the last interaction. Contractual documents and invoices are kept for 10 years per applicable accounting law. Technical logs are kept for up to 12 months."
+        },
+        {
+          "heading": "Who we share data with",
+          "body": "Data may be shared with: our hosting and infrastructure provider (Vercel Inc., USA), the service used to deliver forms, logistics partners for fulfilling deliveries, public authorities when required by law. All our processors are contractually bound to comply with the GDPR."
+        },
+        {
+          "heading": "Transfers outside the EEA",
+          "body": "Since we operate in both the European Union and China, your data may be transferred to countries outside the European Economic Area. In such cases, we make sure the transfer is based on the Standard Contractual Clauses approved by the European Commission or other appropriate safeguards under Art. 46 GDPR."
+        },
+        {
+          "heading": "Your rights",
+          "body": "Under GDPR, you have the right: to access your data; to rectify inaccurate data; to erasure (right to be forgotten); to restriction of processing; to object to processing based on legitimate interest or direct marketing; to data portability; to withdraw consent at any time, without affecting the lawfulness of prior processing. To exercise these rights, contact us through the form on the Contact page."
+        },
+        {
+          "heading": "Complaint to authority",
+          "body": "You have the right to lodge a complaint with the Romanian National Supervisory Authority for Personal Data Processing (ANSPDCP, www.dataprotection.ro) or with the supervisory authority in your country of residence."
+        },
+        {
+          "heading": "Data security",
+          "body": "We apply reasonable technical and organisational measures to protect data: TLS encryption for all transmissions, restricted database access, audit logs, backups. No internet transmission method is 100% secure, but we make every reasonable effort to protect your data."
+        },
+        {
+          "heading": "Policy changes",
+          "body": "We may update this policy to reflect technical, legal or operational changes. The latest version is always available at this address; continuing to use the site after a change means you accept the new version."
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Terms and Conditions — LAZIRON",
+      "metaDescription": "The terms governing the use of the LAZIRON website and services.",
+      "title": "Terms and Conditions",
+      "linkLabel": "Terms and Conditions",
+      "lead": "The terms governing the use of the laziron.com website and LAZIRON services.",
+      "sections": [
+        {
+          "heading": "Identification details",
+          "body": "The laziron.com website is operated by LAZIRON, with office at Laziron Office, Kerry Plaza Tower 2, Futian District, Shenzhen, China."
+        },
+        {
+          "heading": "About the site",
+          "body": "The laziron.com website presents the LAZIRON range of machines and offers a contact channel for quotes. The content is informative and is not a binding offer; final prices, lead times and configurations are set through a written tailored quote."
+        },
+        {
+          "heading": "Orders and payments",
+          "body": "Orders are confirmed by a written offer accepted by both parties. Payment follows the terms of the proforma invoice, before delivery, unless otherwise agreed. We accept bank transfer and other methods stated on the invoice."
+        },
+        {
+          "heading": "User rights and obligations",
+          "body": "You agree to use the site in good faith, without attempting to affect its security or operation. We reserve the right to restrict access in case of abusive or fraudulent use."
+        },
+        {
+          "heading": "Limitation of liability",
+          "body": "The website content is provided \"as is\", without implied warranties. LAZIRON is not liable for indirect losses caused by incorrect use of the information or equipment. Contractual liability is limited to the value of the contract concluded, within the limits of the law."
+        },
+        {
+          "heading": "Intellectual property",
+          "body": "All images, texts, trademarks and the LAZIRON logo are the property of the company and protected by copyright and industrial property law. Any unauthorised use is prohibited."
+        },
+        {
+          "heading": "Governing law",
+          "body": "These terms are governed by Romanian law. Disputes are settled amicably or, failing that, by the competent courts in Romania. For consumers, the additional rights under consumer protection legislation apply."
+        }
+      ]
+    },
+    "cookies": {
+      "metaTitle": "Cookie Policy — LAZIRON",
+      "metaDescription": "How we use cookies on laziron.com.",
+      "title": "Cookie Policy",
+      "linkLabel": "Cookie Policy",
+      "lead": "How we use cookies on laziron.com.",
+      "sections": [
+        {
+          "heading": "What cookies are",
+          "body": "Cookies are small text files stored by the browser on your device when you visit a website. They let the site remember certain information about your preferences between visits."
+        },
+        {
+          "heading": "Types of cookies",
+          "body": "Cookies can be: essential (needed for the site to work), preferences (remember choices such as language), statistics (measure anonymous traffic) and marketing (track activity for advertising). On laziron.com we use only cookies from the first two categories."
+        },
+        {
+          "heading": "Cookies we use",
+          "body": "We use a single cookie: NEXT_LOCALE (essential / preferences), which remembers your preferred language; duration: 1 year; issuer: laziron.com. We do not use Google Analytics, Facebook pixels, remarketing cookies or other third-party tracking tools."
+        },
+        {
+          "heading": "How to control cookies",
+          "body": "You can accept, refuse or delete cookies from your browser settings. For details, check the documentation of the browser you use (Chrome, Firefox, Safari, Edge). Note that deleting NEXT_LOCALE will make the site use automatic language detection again on your next visit."
+        },
+        {
+          "heading": "Changes",
+          "body": "We may update this policy to reflect technical or legal changes. The current version is always available at this address."
+        }
+      ]
+    },
+    "returns": {
+      "metaTitle": "Return Policy — LAZIRON",
+      "metaDescription": "Return conditions for LAZIRON machines and services.",
+      "title": "Return Policy",
+      "linkLabel": "Return Policy",
+      "lead": "Return conditions for LAZIRON machines and services.",
+      "sections": [
+        {
+          "heading": "Made-to-order products",
+          "body": "LAZIRON machines are built to order in the specific configuration contracted, which means they fall under the exception to the 14-day right of return set out in Art. 16(c) of Directive 2011/83/EU on consumer rights (customised goods)."
+        },
+        {
+          "heading": "Manufacturing defects",
+          "body": "If the equipment shows non-conformities on delivery, please notify us within 7 calendar days of receipt at the latest, through the contact form, with photos and a description of the issue. We will resolve the case through repair, replacement or financial settlement, per the Warranty Policy."
+        },
+        {
+          "heading": "Order cancellation",
+          "body": "Cancellation before production starts has no penalty. After production begins, contractual conditions apply, with deductions proportional to the production stage at the time of cancellation."
+        },
+        {
+          "heading": "Procedure",
+          "body": "For any request related to returns or non-conformity, contact us through the form on the Contact page. We respond within 5 working days at the latest."
+        }
+      ]
+    },
+    "shipping": {
+      "metaTitle": "Shipping Policy — LAZIRON",
+      "metaDescription": "Lead times and shipping conditions for LAZIRON machines.",
+      "title": "Shipping Policy",
+      "linkLabel": "Shipping Policy",
+      "lead": "How we ship the machines and what the lead times are.",
+      "sections": [
+        {
+          "heading": "Lead times",
+          "body": "Standard lead time is 45-90 working days from order confirmation and advance payment, depending on the configuration and component availability. Indicative lead times are confirmed in the written offer."
+        },
+        {
+          "heading": "Transport",
+          "body": "Delivery is DAP (Delivered at Place) at the buyer's site stated in the contract. We arrange sea, road or combined transport; costs are included in the quote or invoiced separately, as the case may be."
+        },
+        {
+          "heading": "Goods receipt",
+          "body": "Upon receipt, please check the condition of packaging and equipment. Any visible damage must be recorded in the receipt protocol and notified within 7 calendar days."
+        },
+        {
+          "heading": "Installation and commissioning",
+          "body": "Installation, commissioning and operator training are optional services, contracted separately. They are delivered at the buyer's site by our technical team or authorised partners."
+        }
+      ]
+    },
+    "warranty": {
+      "metaTitle": "Warranty Policy — LAZIRON",
+      "metaDescription": "Extended 60-month warranty for LAZIRON equipment.",
+      "title": "Warranty Policy",
+      "linkLabel": "Warranty Policy",
+      "lead": "Extended 60-month commercial warranty for LAZIRON equipment.",
+      "sections": [
+        {
+          "heading": "Coverage",
+          "body": "We offer a 60-month commercial warranty on the machine body and critical mechanical components (frame, guides, motors, ball screws). The laser source, cutting head and CNC control system are covered by the original manufacturers' warranties, per their terms."
+        },
+        {
+          "heading": "What is covered",
+          "body": "Manufacturing defects and components that fail under normal use are covered free of charge, including service labour in Romania. Original spare parts are supplied throughout the warranty period."
+        },
+        {
+          "heading": "What is not covered",
+          "body": "Failures caused by incorrect use, impacts, electrical overvoltages, unauthorised interventions, lack of recommended periodic maintenance, unapproved consumables or improper environmental conditions (humidity, excessive dust) are not covered."
+        },
+        {
+          "heading": "Warranty procedure",
+          "body": "To activate the warranty, contact us through the contact form with the machine serial number, the purchase invoice and a description of the issue. Average response time in Romania is 48-72 working hours."
+        },
+        {
+          "heading": "Technical support",
+          "body": "The LAZIRON team provides free technical support for the entire equipment lifetime, through the contact form, whether or not the machine is still under warranty."
+        }
+      ]
+    }
+  },
+  "Footer": {
+    "tagline": "Industrial quality at an affordable price.",
+    "navTitle": "Navigation",
+    "categoriesTitle": "Categories",
+    "rights": "All rights reserved.",
+    "legalTitle": "Legal documents"
+  }
+}

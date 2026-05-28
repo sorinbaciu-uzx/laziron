@@ -1,0 +1,471 @@
+{
+  "Brand": {
+    "name": "LAZIRON",
+    "tagline": "Průmyslová kvalita za dostupnou cenu."
+  },
+  "NotFound": {
+    "title": "Stránka nenalezena",
+    "description": "Stránka, kterou hledáte, neexistuje nebo byla přesunuta.",
+    "back": "Zpět na úvodní stránku"
+  },
+  "Nav": {
+    "home": "Domů",
+    "products": "Produkty",
+    "industrySolutions": "Průmyslová řešení",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "menu": "Menu",
+    "openMenu": "Otevřít menu",
+    "closeMenu": "Zavřít menu"
+  },
+  "Common": {
+    "learnMore": "Zjistit více",
+    "requestQuote": "Vyžádat nabídku",
+    "viewAllProducts": "Zobrazit všechny produkty",
+    "backToProducts": "Zpět na produkty",
+    "readMore": "Číst více",
+    "readLess": "Číst méně",
+    "swipeHint": "Přejeďte pro více",
+    "details": "Detail",
+    "offer": "Nabídka",
+    "contactUs": "Kontaktujte nás",
+    "language": "Jazyk"
+  },
+  "Home": {
+    "metaTitle": "LAZIRON — Laserové řezací stroje na plech a trubky",
+    "metaDescription": "Vláknové laserové řezací stroje na plech a kovové trubky. Průmyslová kvalita za dostupnou cenu.",
+    "heroEyebrow": "Vláknové laserové řezání",
+    "heroTitle": "Laserové řezací stroje na plech a kovové trubky",
+    "heroSubtitle": "Vysoce přesná řešení řezání kovových plechů a profilů: vysoká produktivita a nízké provozní náklady.",
+    "heroTagline": "Platíte za technologii, ne za jméno.",
+    "heroCtaPrimary": "Zobrazit produkty",
+    "heroCtaSecondary": "Vyžádat nabídku",
+    "featuresTitle": "Proč LAZIRON?",
+    "featuresSubtitle": "Průmyslový výkon bez kompromisů v ceně.",
+    "feature1Title": "Vysoká přesnost",
+    "feature1Desc": "Špičkové vláknové laserové zdroje pro čisté a opakovatelné řezy.",
+    "feature2Title": "Vysoká produktivita",
+    "feature2Desc": "Vysoké rychlosti řezání zkracují dobu výroby a zvyšují výkon.",
+    "feature3Title": "Nízké náklady",
+    "feature3Desc": "Nízká spotřeba energie a minimální údržba pro nízké celkové náklady.",
+    "feature4Title": "Záruka 60 měsíců",
+    "feature4Desc": "Rozšířené krytí stroje a kritických komponentů pro bezstarostnou investici.",
+    "productsTitle": "Naše produkty",
+    "productsSubtitle": "Stroje určené pro řezání plechu a kovových trubek.",
+    "ctaTitle": "Připraveni zvýšit výrobu?",
+    "ctaText": "Řekněte nám, co řežete, a my se vám ozveme s konfigurací a nabídkou na míru.",
+    "aboutEyebrow": "O nás",
+    "aboutTitle": "Průmyslová kvalita za nejnižší cenu",
+    "aboutText": "Jsme tým, který přiváží laserové řezací stroje přímo z výroby, bez prostředníků a bez přirážky drahých značek. Platíte za technologii, ne za jméno. Pomůžeme vám vybrat konfiguraci, stroj nainstalujeme, zaškolíme obsluhu a zajistíme servis, vše ve vašem jazyce.",
+    "offerBadge": "Záruka ceny",
+    "offerTitle": "Nejlepší cena, garantovaně",
+    "offerText": "Jsme si jisti, že naše ceny jsou nejnižší. Pokud najdete stejný stroj jinde levněji, dostanete od nás slevu 5-10% navíc. Tak jisti jsme si nabídkou LAZIRON.",
+    "applicationsTitle": "Doporučené aplikace",
+    "applicationsSubtitle": "Oblasti, kde stroje LAZIRON přinášejí nejlepší výsledky.",
+    "applicationsCta": "Zobrazit průmyslová řešení",
+    "laserEyebrow": "Kvalita za dostupnou cenu",
+    "laserTitle": "Laserová technologie za férovou cenu",
+    "laserSubtitle": "Stejné komponenty, jaké používají velcí výrobci, ve stroji, který si může dovolit každá seriózní dílna. Platíte za technologii, ne za jméno na krytu.",
+    "laserHighlight": "Záruka 60 měsíců na zařízení",
+    "laserStep1": "Stroj připraven",
+    "laserStep2": "Polohování hlavy",
+    "laserStep3": "Zaostření paprsku",
+    "laserStep4": "Laserové řezání",
+    "laserStep5": "Hotové díly",
+    "customEyebrow": "Individuální poptávka",
+    "customTitle": "Nenašli jste, co hledáte? Najdeme to za vás.",
+    "customText": "Řekněte nám, jaký stroj potřebujete, i když není na webu. Vyplňte formulář se svým požadavkem a my najdeme vhodné zařízení a ozveme se s nabídkou.",
+    "customCta": "Odeslat poptávku"
+  },
+  "Products": {
+    "metaTitle": "Produkty — LAZIRON",
+    "metaDescription": "Řada laserových řezacích strojů LAZIRON na plech a kovové trubky.",
+    "title": "Produkty",
+    "subtitle": "Průmyslová kvalita za dostupnou cenu. Kompletní řada laserových strojů pro plech, trubky, svařování a čištění, vybraných pro dílny, které nechtějí obrovskou investici.",
+    "seriesLabel": "Série",
+    "empty": "Momentálně nejsou k dispozici žádné produkty.",
+    "relatedEyebrow": "Doporučeno",
+    "relatedTitle": "Podobné produkty",
+    "categories": {
+      "sheet": "Laserové řezání plechu",
+      "tube": "Laserové řezání trubek",
+      "sheet-tube": "Laserové řezání plechu a trubek",
+      "bending": "Ohraňovací lisy",
+      "welding": "Laserové svařování",
+      "cleaning": "Laserové čištění"
+    }
+  },
+  "ProductDetail": {
+    "overviewTitle": "Přehled",
+    "descriptionHeading": "O tomto produktu",
+    "keySpecsTitle": "Klíčové parametry",
+    "warrantyBadge": "Záruka 60 měsíců",
+    "specsTitle": "Technické specifikace",
+    "featuresTitle": "Hlavní vlastnosti",
+    "applicationsTitle": "Aplikace",
+    "ctaTitle": "Máte zájem o tento produkt?",
+    "ctaText": "Kontaktujte nás pro individuální nabídku a kompletní technické údaje.",
+    "specLabels": {
+      "laserPower": "Výkon laseru",
+      "workingArea": "Pracovní plocha",
+      "maxSpeed": "Maximální rychlost polohování",
+      "accuracy": "Přesnost polohování",
+      "tubeDiameter": "Průměr trubky",
+      "tubeLength": "Délka trubky",
+      "cooling": "Chladicí systém",
+      "control": "Řídicí systém",
+      "powerSupply": "Napájení"
+    }
+  },
+  "Origin": {
+    "eyebrow": "Z Číny, s místní podporou",
+    "title": "Technologie z Číny, plná místní podpora",
+    "slogan": "Průmyslová kvalita za dostupnou cenu.",
+    "text": "Přivážíme laserové řezací stroje vyrobené v Číně, postavené ze stejných komponentů, jaké používají velcí výrobci. Platíte za technologii, ne za drahé jméno. Zajišťujeme dopravu, uvedení do provozu, školení i servis, vše ve vašem jazyce.",
+    "point1Title": "Dostupná cena",
+    "point1Desc": "Efektivní výroba v Číně bez přirážky evropských značek. Investujete do technologie, ne do drahého loga.",
+    "point2Title": "Místní podpora",
+    "point2Desc": "Místní tým pro instalaci, školení a rychlý servis, se zárukou 60 měsíců a náhradními díly k dispozici lokálně.",
+    "point3Title": "Ověřená kvalita",
+    "point3Desc": "Bezplatná kontrola před dodáním a komponenty s certifikací CE podle mezinárodních norem.",
+    "cta": "Odeslat poptávku"
+  },
+  "Industry": {
+    "metaTitle": "Průmyslová řešení — LAZIRON",
+    "metaDescription": "Řešení laserového řezání pro různá odvětví: automobilový průmysl, kovové konstrukce, nábytek, zemědělství a další.",
+    "title": "Průmyslová řešení",
+    "subtitle": "Ověřená průmyslová kvalita pro jakékoli odvětví za cenu, kterou si může dovolit každá seriózní dílna. Místní podpora, záruka a náhradní díly k dispozici.",
+    "item1Title": "Automobilový průmysl",
+    "item1Desc": "Kovové komponenty a podsestavy s úzkými tolerancemi pro automobilový sektor.",
+    "item2Title": "Kovové konstrukce",
+    "item2Desc": "Profily, nosníky a konstrukce řezané rychle a přesně pro stavebnictví.",
+    "item3Title": "Kovový nábytek",
+    "item3Desc": "Dekorativní a funkční díly pro nábytek a interiérový design.",
+    "item4Title": "Zemědělská technika",
+    "item4Desc": "Robustní komponenty pro zemědělské stroje a zařízení.",
+    "item5Title": "Reklama a design",
+    "item5Desc": "Prostorová písmena, loga a dekorativní kovové prvky.",
+    "item6Title": "Subdodávky",
+    "item6Desc": "Služby řezání na zakázku pro dílny a výrobce.",
+    "laserEyebrow": "Laserová technologie",
+    "laserTitle": "Co dokáže laser LAZIRON",
+    "laserSubtitle": "Čtyři průmyslové operace zvládnuté stejnou vláknovou laserovou technologií, s přesností a opakovatelností.",
+    "laserAnim1Title": "Řezání plechu",
+    "laserAnim1Desc": "Plechy a profily s čistými hranami bez otřepů, připravené k montáži.",
+    "laserAnim2Title": "Řezání trubek",
+    "laserAnim2Desc": "Kulaté, čtvercové i obdélníkové trubky, vrtané a řezané pod jakýmkoli úhlem.",
+    "laserAnim3Title": "Laserové svařování",
+    "laserAnim3Desc": "Jemné a pevné svary pro kovové sestavy s minimální tepelnou deformací.",
+    "laserAnim4Title": "Laserové čištění",
+    "laserAnim4Desc": "Odstraňuje rez, barvu nebo oxidy bez rozpouštědel a bez poškození materiálu.",
+    "laserPitchEyebrow": "Průmyslová řešení LAZIRON",
+    "laserPitch1Title": "Plaťte za technologii, ne za jméno.",
+    "laserPitch1Text": "Místní tým, pečlivě vybrané stroje a férová cena. Průmyslová kvalita bez obrovské investice.",
+    "laserPitch2Title": "Více dílů, méně peněz.",
+    "laserPitch2Text": "Stabilní produktivita za investici, kterou si může dovolit každá seriózní dílna.",
+    "laserPitch3Title": "Čisté svary, bez retuší.",
+    "laserPitch3Text": "Jemné svary s minimální tepelnou deformací. Záruka a servis ve vašem jazyce od místního týmu.",
+    "laserPitch4Title": "Bez rozpouštědel, bez abraziv.",
+    "laserPitch4Text": "Odpadají spotřební materiály i další práce. Rychlá a dostupná investice s místní podporou týmu LAZIRON."
+  },
+  "Contact": {
+    "metaTitle": "Kontakt — LAZIRON",
+    "metaDescription": "Kontaktujte tým LAZIRON pro nabídky a technické informace.",
+    "title": "Kontaktujte nás",
+    "subtitle": "Řekněte nám, co potřebujete, a my se vám ozveme s individuální nabídkou.",
+    "lead": "Naše laserové řezací stroje nabízejí nejnižší cenu za stejnou konfiguraci a nejlepší konfiguraci za stejnou cenu. Máme profesionální technický a poprodejní tým, který je k dispozici 24/7, od výroby až po servis, abyste mohli vyrábět bez starostí.",
+    "formName": "Jméno",
+    "formEmail": "E-mail",
+    "formPhone": "Telefon",
+    "formCompany": "Společnost",
+    "formMessage": "Zpráva",
+    "formSubmit": "Odeslat zprávu",
+    "formSuccess": "Děkujeme! Vaše zpráva byla odeslána. Brzy se vám ozveme.",
+    "formNote": "Označená pole jsou povinná.",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon"
+  },
+  "About": {
+    "metaTitle": "O nás — LAZIRON",
+    "metaDescription": "LAZIRON přináší laserové řezací, ohýbací, svařovací a čisticí stroje za dostupnou cenu, s plnou místní podporou.",
+    "title": "O nás",
+    "subtitle": "Kdo jsme a proč můžete LAZIRON důvěřovat.",
+    "subtitleTagline": "Přinášíme průmyslovou kvalitu za dostupnou cenu. Platíte za technologii, ne za jméno.",
+    "eyebrow": "Naše mise",
+    "heading": "Přinášíme průmyslový výkon blíž k vaší dílně",
+    "lead": "Průmyslová kvalita za dostupnou cenu.",
+    "body1": "LAZIRON přináší laserové řezací, ohýbací, svařovací a čisticí stroje přímo z výroby. Vybíráme zařízení postavená ze stejných komponentů, jaké používají velcí výrobci, a nabízíme je za férovou cenu, bez přirážky drahých značek.",
+    "body2": "Pracujeme transparentně: vysvětlíme přesně, co kupujete, pomůžeme vybrat správnou konfiguraci a zůstáváme s vámi i po dodání, se školením a servisem ve vašem jazyce.",
+    "point1Title": "Místní tým",
+    "point1Desc": "Mluvíme stejným jazykem a rozumíme potřebám místních dílen.",
+    "point2Title": "Podpora po celou dobu životnosti",
+    "point2Desc": "Technická pomoc, školení a rychlý servis ve vašem jazyce.",
+    "point3Title": "Záruka 60 měsíců",
+    "point3Desc": "Rozšířené krytí stroje a přístup k náhradním dílům, když je potřebujete.",
+    "point4Title": "Kontrola před dodáním",
+    "point4Desc": "Stroj otestovaný na vašem materiálu uvidíte živě nebo na místě před expedicí.",
+    "point5Title": "Komponenty s certifikací CE",
+    "point5Desc": "Laserové zdroje a komponenty podle mezinárodních norem.",
+    "point6Title": "Nejlepší cena, garantovaně",
+    "point6Desc": "Pokud najdete stejný stroj jinde levněji, dostanete od nás slevu 5-10%.",
+    "ctaTitle": "Chcete vědět více?",
+    "ctaText": "Napište nám a ozveme se s detaily, konfiguracemi a nabídkou na míru.",
+    "officeTitle": "Kancelář",
+    "officeMapsCta": "Zobrazit na mapě"
+  },
+  "Quote": {
+    "title": "Vyžádat nabídku",
+    "name": "Celé jméno",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "message": "Zpráva",
+    "submit": "Odeslat poptávku",
+    "success": "Děkujeme! Vaši poptávku jsme přijali a brzy se vám ozveme s individuální nabídkou.",
+    "note": "Označená pole jsou povinná.",
+    "close": "Zavřít"
+  },
+  "Auth": {
+    "accountLabel": "Účet",
+    "loginMetaTitle": "Přihlášení — LAZIRON",
+    "registerMetaTitle": "Nový účet — LAZIRON",
+    "loginTitle": "Vítejte zpět",
+    "loginSubtitle": "Přihlaste se a pokračujte.",
+    "registerTitle": "Vytvořte si nový účet",
+    "registerSubtitle": "Registrace zabere jen pár vteřin.",
+    "name": "Celé jméno",
+    "email": "Email",
+    "password": "Heslo",
+    "confirmPassword": "Potvrďte heslo",
+    "rememberMe": "Zapamatovat",
+    "forgotPassword": "Zapomněli jste heslo?",
+    "loginCta": "Přihlásit se",
+    "registerCta": "Vytvořit účet",
+    "noAccount": "Nemáte účet?",
+    "haveAccount": "Už máte účet?",
+    "registerLink": "Zaregistrovat se",
+    "loginLink": "Přihlásit se",
+    "termsLabel": "Souhlasím s",
+    "termsLink": "obchodními podmínkami",
+    "passwordHint": "Minimálně 8 znaků",
+    "showPassword": "Zobrazit heslo",
+    "hidePassword": "Skrýt heslo",
+    "demoNotice": "Náhled designu. Skutečné přihlášení bude doplněno později."
+  },
+  "CookieBanner": {
+    "title": "Používáme cookies",
+    "body": "Používáme pouze jeden nezbytný cookie k zapamatování vašeho jazyka. Žádné sledování, žádná reklama.",
+    "accept": "Rozumím",
+    "customize": "Přizpůsobit",
+    "rejectAll": "Pouze nezbytné",
+    "save": "Uložit nastavení",
+    "learnMore": "Zobrazit zásady",
+    "categoryEssential": "Nezbytné cookies",
+    "categoryEssentialDesc": "Potřebné pro fungování webu. Nelze je vypnout.",
+    "categoryPreferences": "Preference",
+    "categoryPreferencesDesc": "Pamatuje si zvolený jazyk pro další návštěvy.",
+    "required": "Vyžadováno"
+  },
+  "Legal": {
+    "privacy": {
+      "metaTitle": "Zásady ochrany osobních údajů — LAZIRON",
+      "metaDescription": "Jak LAZIRON nakládá s vašimi osobními údaji v souladu s GDPR.",
+      "title": "Zásady ochrany osobních údajů",
+      "linkLabel": "Zásady ochrany osobních údajů",
+      "lead": "Respektujeme soukromí vašich údajů a dodržujeme nařízení (EU) 2016/679 (GDPR).",
+      "sections": [
+        {
+          "heading": "Správce údajů",
+          "body": "Web laziron.com provozuje LAZIRON s kanceláří na adrese Laziron Office, Kerry Plaza Tower 2, No. 1 Zhong Xin Fourth Road, Futian District, Shenzhen, Guangdong 518046, Čína. Pro jakýkoli požadavek týkající se osobních údajů kontaktujte nás prostřednictvím formuláře na stránce Kontakt."
+        },
+        {
+          "heading": "Shromažďované osobní údaje",
+          "body": "Shromažďujeme: (a) údaje, které zadáváte do kontaktního formuláře (jméno, společnost, zpráva a další podrobnosti, které chcete poskytnout); (b) technické údaje (IP adresa, user-agent, přístupové protokoly) zaznamenávané automaticky poskytovatelem hostingu pro bezpečnost a diagnostiku; (c) preference (zvolený jazyk) uložené v nezbytném cookie. Neshromažďujeme údaje ze zvláštních kategorií (zdraví, politické názory, biometrické údaje atd.)."
+        },
+        {
+          "heading": "Účely a právní základ zpracování",
+          "body": "Vaše údaje zpracováváme za účelem: odpovídání na dotazy a zasílání individuálních nabídek (čl. 6 odst. 1 písm. b) GDPR — předsmluvní opatření); plnění uzavřených smluv včetně dodání, instalace, záruky a servisu (čl. 6 odst. 1 písm. b)); zajištění bezpečnosti webu a prevence podvodů (čl. 6 odst. 1 písm. f) — oprávněný zájem); plnění zákonných daňových a účetních povinností (čl. 6 odst. 1 písm. c)); zasílání marketingových sdělení, pokud je relevantní, na základě vašeho souhlasu (čl. 6 odst. 1 písm. a)), který můžete kdykoli odvolat."
+        },
+        {
+          "heading": "Doba uchování",
+          "body": "Kontaktní údaje z formulářů uchováváme po dobu trvání aktivního zájmu, nejdéle však 3 roky od poslední interakce. Smluvní dokumenty a faktury uchováváme 10 let podle platných účetních předpisů. Technické protokoly uchováváme nejdéle 12 měsíců."
+        },
+        {
+          "heading": "S kým údaje sdílíme",
+          "body": "Údaje mohou být sdíleny s: poskytovatelem hostingu a infrastruktury (Vercel Inc., USA), službou používanou pro doručování formulářů, logistickými partnery pro plnění dodávek, veřejnými orgány, pokud nám to ukládá zákon. Všichni naši zpracovatelé jsou smluvně zavázáni dodržovat GDPR."
+        },
+        {
+          "heading": "Předávání mimo EHP",
+          "body": "Vzhledem k tomu, že působíme jak v Evropské unii, tak v Číně, mohou být vaše údaje předány do zemí mimo Evropský hospodářský prostor. V takových případech zajišťujeme, aby předání probíhalo na základě Standardních smluvních doložek schválených Evropskou komisí nebo jiných vhodných záruk podle čl. 46 GDPR."
+        },
+        {
+          "heading": "Vaše práva",
+          "body": "Podle GDPR máte právo: na přístup ke svým údajům; na opravu nepřesných údajů; na výmaz (právo být zapomenut); na omezení zpracování; vznést námitku proti zpracování založenému na oprávněném zájmu nebo přímém marketingu; na přenositelnost údajů; kdykoli odvolat souhlas, aniž by to ovlivnilo zákonnost předchozího zpracování. Pro uplatnění těchto práv nás kontaktujte prostřednictvím formuláře na stránce Kontakt."
+        },
+        {
+          "heading": "Stížnost u dozorového úřadu",
+          "body": "Máte právo podat stížnost u Úřadu pro ochranu osobních údajů ve své zemi pobytu, případně u rumunského dozorového úřadu ANSPDCP (www.dataprotection.ro)."
+        },
+        {
+          "heading": "Zabezpečení údajů",
+          "body": "Uplatňujeme přiměřená technická a organizační opatření k ochraně údajů: šifrování TLS pro všechny přenosy, omezený přístup k databázím, auditní protokoly, zálohy. Žádný způsob přenosu po internetu není 100% bezpečný, ale vyvíjíme veškeré přiměřené úsilí k ochraně vašich údajů."
+        },
+        {
+          "heading": "Změny zásad",
+          "body": "Tyto zásady můžeme aktualizovat, abychom zohlednili technické, právní nebo provozní změny. Aktuální verze je vždy k dispozici na této adrese; pokračováním v používání webu po změně vyjadřujete souhlas s novou verzí."
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Obchodní podmínky — LAZIRON",
+      "metaDescription": "Podmínky používání webu a služeb LAZIRON.",
+      "title": "Obchodní podmínky",
+      "linkLabel": "Obchodní podmínky",
+      "lead": "Podmínky pro používání webu laziron.com a služeb LAZIRON.",
+      "sections": [
+        {
+          "heading": "Identifikační údaje",
+          "body": "Web laziron.com provozuje LAZIRON s kanceláří na adrese Laziron Office, Kerry Plaza Tower 2, Futian District, Shenzhen, Čína."
+        },
+        {
+          "heading": "O webu",
+          "body": "Web laziron.com prezentuje řadu strojů LAZIRON a nabízí kontakt pro získání nabídky. Obsah je informativní a není závaznou nabídkou; konečné ceny, lhůty a konfigurace jsou stanoveny individuální písemnou nabídkou."
+        },
+        {
+          "heading": "Objednávky a platby",
+          "body": "Objednávky se potvrzují písemnou nabídkou přijatou oběma stranami. Platba probíhá podle podmínek proforma faktury před dodáním, není-li dohodnuto jinak. Přijímáme bankovní převod a další způsoby uvedené na faktuře."
+        },
+        {
+          "heading": "Práva a povinnosti uživatele",
+          "body": "Zavazujete se používat web v dobré víře, bez snahy ovlivnit jeho bezpečnost nebo provoz. Vyhrazujeme si právo omezit přístup v případě zneužívajícího nebo podvodného použití."
+        },
+        {
+          "heading": "Omezení odpovědnosti",
+          "body": "Obsah webu je poskytován \"tak jak je\", bez implikovaných záruk. LAZIRON neodpovídá za nepřímé ztráty způsobené nesprávným použitím informací nebo zařízení. Smluvní odpovědnost je omezena hodnotou uzavřené smlouvy v mezích zákona."
+        },
+        {
+          "heading": "Duševní vlastnictví",
+          "body": "Všechny obrázky, texty, ochranné známky a logo LAZIRON jsou majetkem společnosti a jsou chráněny autorským a průmyslovým právem. Jakékoli neoprávněné použití je zakázáno."
+        },
+        {
+          "heading": "Rozhodné právo",
+          "body": "Tyto podmínky se řídí rumunským právem. Spory se řeší smírně nebo, pokud to není možné, příslušnými soudy v Rumunsku. Spotřebitelé mají další práva podle právních předpisů na ochranu spotřebitele."
+        }
+      ]
+    },
+    "cookies": {
+      "metaTitle": "Zásady používání cookies — LAZIRON",
+      "metaDescription": "Jak používáme cookies na laziron.com.",
+      "title": "Zásady používání cookies",
+      "linkLabel": "Zásady cookies",
+      "lead": "Jak používáme cookies na laziron.com.",
+      "sections": [
+        {
+          "heading": "Co jsou cookies",
+          "body": "Cookies jsou malé textové soubory, které prohlížeč ukládá na vaše zařízení při návštěvě webu. Webu umožňují zapamatovat si některé informace o vašich preferencích mezi návštěvami."
+        },
+        {
+          "heading": "Typy cookies",
+          "body": "Cookies mohou být: nezbytné (potřebné pro fungování), preferenční (pamatují si volby jako jazyk), statistické (měří anonymní návštěvnost) a marketingové (sledují aktivitu pro reklamu). Na laziron.com používáme výhradně cookies z prvních dvou kategorií."
+        },
+        {
+          "heading": "Jaké cookies používáme",
+          "body": "Používáme jediný cookie: NEXT_LOCALE (nezbytný / preferenční), který si pamatuje váš preferovaný jazyk; doba trvání: 1 rok; vydavatel: laziron.com. Nepoužíváme Google Analytics, Facebook pixely, remarketingové cookies ani jiné nástroje pro sledování třetích stran."
+        },
+        {
+          "heading": "Jak ovládat cookies",
+          "body": "Cookies můžete přijmout, odmítnout nebo smazat v nastavení prohlížeče. Podrobnosti najdete v dokumentaci používaného prohlížeče (Chrome, Firefox, Safari, Edge). Smazání NEXT_LOCALE způsobí, že web při další návštěvě znovu použije automatickou detekci jazyka."
+        },
+        {
+          "heading": "Změny",
+          "body": "Tyto zásady můžeme aktualizovat, abychom zohlednili technické nebo právní změny. Aktuální verze je vždy k dispozici na této adrese."
+        }
+      ]
+    },
+    "returns": {
+      "metaTitle": "Zásady vrácení — LAZIRON",
+      "metaDescription": "Podmínky vrácení strojů a služeb LAZIRON.",
+      "title": "Zásady vrácení",
+      "linkLabel": "Zásady vrácení",
+      "lead": "Podmínky vrácení strojů a služeb LAZIRON.",
+      "sections": [
+        {
+          "heading": "Produkty na zakázku",
+          "body": "Stroje LAZIRON jsou vyráběny na zakázku v konkrétní smluvené konfiguraci, a proto spadají pod výjimku ze 14denního práva na odstoupení uvedenou v čl. 16 písm. c) směrnice 2011/83/EU o právech spotřebitelů (zboží na míru)."
+        },
+        {
+          "heading": "Výrobní vady",
+          "body": "Pokud zařízení vykazuje neshody při dodání, oznamte nám to nejpozději do 7 kalendářních dnů od převzetí prostřednictvím kontaktního formuláře, s fotografiemi a popisem problému. Případ vyřešíme opravou, výměnou nebo finančním vyrovnáním podle Zásad záruky."
+        },
+        {
+          "heading": "Zrušení objednávky",
+          "body": "Zrušení před zahájením výroby je bez sankcí. Po zahájení výroby platí smluvní podmínky se srážkami úměrnými stavu výroby v okamžiku zrušení."
+        },
+        {
+          "heading": "Postup",
+          "body": "Pro jakýkoli požadavek týkající se vrácení nebo neshody nás kontaktujte prostřednictvím formuláře na stránce Kontakt. Odpovídáme nejpozději do 5 pracovních dnů."
+        }
+      ]
+    },
+    "shipping": {
+      "metaTitle": "Zásady dodání — LAZIRON",
+      "metaDescription": "Dodací lhůty a podmínky pro stroje LAZIRON.",
+      "title": "Zásady dodání",
+      "linkLabel": "Zásady dodání",
+      "lead": "Jak stroje dodáváme a jaké jsou lhůty.",
+      "sections": [
+        {
+          "heading": "Dodací lhůty",
+          "body": "Standardní lhůta je 45-90 pracovních dnů od potvrzení objednávky a zaplacení zálohy, podle konfigurace a dostupnosti komponent. Orientační lhůty jsou potvrzeny v písemné nabídce."
+        },
+        {
+          "heading": "Doprava",
+          "body": "Dodání je DAP (Delivered at Place) na pracoviště kupujícího uvedené ve smlouvě. Zajišťujeme přepravu po moři, po souši nebo kombinovaně; náklady jsou zahrnuty v nabídce nebo fakturovány samostatně, podle situace."
+        },
+        {
+          "heading": "Převzetí zboží",
+          "body": "Při převzetí zkontrolujte stav obalu a zařízení. Jakékoli zjevné poškození musí být zaznamenáno v přejímacím protokolu a oznámeno do 7 kalendářních dnů."
+        },
+        {
+          "heading": "Instalace a uvedení do provozu",
+          "body": "Instalace, uvedení do provozu a školení obsluhy jsou volitelné služby, smluvené samostatně. Provádí je na pracovišti kupujícího náš technický tým nebo autorizovaní partneři."
+        }
+      ]
+    },
+    "warranty": {
+      "metaTitle": "Zásady záruky — LAZIRON",
+      "metaDescription": "Prodloužená záruka 60 měsíců na zařízení LAZIRON.",
+      "title": "Zásady záruky",
+      "linkLabel": "Zásady záruky",
+      "lead": "Prodloužená obchodní záruka 60 měsíců na zařízení LAZIRON.",
+      "sections": [
+        {
+          "heading": "Pokrytí",
+          "body": "Poskytujeme obchodní záruku 60 měsíců na tělo stroje a kritické mechanické komponenty (rám, vedení, motory, kuličkové šrouby). Laserový zdroj, řezací hlava a CNC řídicí systém jsou kryty zárukami původních výrobců podle jejich podmínek."
+        },
+        {
+          "heading": "Co je kryto",
+          "body": "Výrobní vady a komponenty selhávající při běžném používání jsou kryty bezplatně, včetně servisní práce v Rumunsku. Originální náhradní díly jsou dodávány po celou dobu záruky."
+        },
+        {
+          "heading": "Co kryto není",
+          "body": "Poruchy způsobené nesprávným použitím, nárazy, elektrickými přepětími, neoprávněnými zásahy, chybějící doporučenou pravidelnou údržbou, používáním neschválených spotřebních materiálů nebo nevhodnými podmínkami prostředí (vlhkost, nadměrný prach) nejsou kryty."
+        },
+        {
+          "heading": "Postup uplatnění záruky",
+          "body": "Pro aktivaci záruky nás kontaktujte prostřednictvím kontaktního formuláře s výrobním číslem stroje, fakturou a popisem problému. Průměrná doba reakce v Rumunsku je 48-72 pracovních hodin."
+        },
+        {
+          "heading": "Technická podpora",
+          "body": "Tým LAZIRON poskytuje bezplatnou technickou podporu po celou dobu životnosti zařízení, prostřednictvím kontaktního formuláře, bez ohledu na to, zda je stroj v záruce."
+        }
+      ]
+    }
+  },
+  "Footer": {
+    "tagline": "Průmyslová kvalita za dostupnou cenu.",
+    "navTitle": "Navigace",
+    "categoriesTitle": "Kategorie",
+    "rights": "Všechna práva vyhrazena.",
+    "legalTitle": "Právní dokumenty"
+  }
+}

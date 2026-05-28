@@ -11,14 +11,14 @@ import { NextResponse } from "next/server";
  *
  * Optional env vars:
  *   MONDAY_BOARD_ID  — override the default board id (5092118529)
- *   SITE_LABEL       — override the SITE column value (default "laziron.ro")
+ *   SITE_LABEL       — override the SITE column value (default "laziron.com")
  */
 
 export const runtime = "nodejs";
 
 const MONDAY_API_URL = "https://api.monday.com/v2";
 const BOARD_ID = Number(process.env.MONDAY_BOARD_ID) || 5092118529;
-const SITE_LABEL = process.env.SITE_LABEL || "laziron.ro";
+const SITE_LABEL = process.env.SITE_LABEL || "laziron.com";
 
 type Body = {
   name?: string;

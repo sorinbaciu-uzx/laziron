@@ -74,6 +74,7 @@ export default async function ProductDetailPage({
           product={{
             name: product.content.name,
             cover: product.cover,
+            secondary: product.secondary,
             series: product.series,
           }}
           label={tCommon("requestQuote")}
@@ -236,6 +237,7 @@ export default async function ProductDetailPage({
                 product={{
                   name: product.content.name,
                   cover: product.cover,
+                  secondary: product.secondary,
                   series: product.series,
                 }}
                 label={tCommon("requestQuote")}

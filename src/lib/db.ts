@@ -18,6 +18,9 @@ function createPool(): Pool {
   if (!connectionString) {
     throw new Error("POSTGRES_URL env var is not set");
   }
+  // `rejectUnauthorized: false` is required for Neon's pooled endpoint
+  // (uses self-signed certs in some regions). Neon enforces TLS at the
+  // network layer anyway, so the connection is still encrypted.
   return new Pool({
     connectionString,
     ssl: connectionString.includes("sslmode=require") ? { rejectUnauthorized: false } : undefined,

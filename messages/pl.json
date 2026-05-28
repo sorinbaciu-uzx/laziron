@@ -188,6 +188,7 @@
     "formErrorEmail": "Wprowadź prawidłowy adres e-mail.",
     "formErrorMessage": "Napisz wiadomość.",
     "formErrorUnavailable": "Wysyłanie wiadomości jest tymczasowo niedostępne. Spróbuj ponownie później.",
+    "formErrorRateLimited": "Zbyt wiele prób. Spróbuj ponownie za kilka minut.",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefon"
   },
@@ -237,7 +238,8 @@
     "errorGeneric": "Zapytania nie udało się wysłać. Spróbuj ponownie za chwilę.",
     "errorName": "Wprowadź prawidłowe imię.",
     "errorEmail": "Wprowadź prawidłowy adres e-mail.",
-    "errorUnavailable": "Wysyłanie zapytań jest tymczasowo niedostępne. Spróbuj ponownie później."
+    "errorUnavailable": "Wysyłanie zapytań jest tymczasowo niedostępne. Spróbuj ponownie później.",
+    "errorRateLimited": "Zbyt wiele prób. Spróbuj ponownie za kilka minut."
   },
   "Auth": {
     "accountLabel": "Konto",
@@ -261,7 +263,7 @@
     "loginLink": "Zaloguj się",
     "termsLabel": "Akceptuję",
     "termsLink": "regulamin i warunki",
-    "passwordHint": "Co najmniej 8 znaków",
+    "passwordHint": "Co najmniej 8 znaków, w tym 1 cyfra i 1 wielka litera.",
     "showPassword": "Pokaż hasło",
     "hidePassword": "Ukryj hasło",
     "loggingIn": "Logowanie…",
@@ -270,6 +272,9 @@
     "errorCredentials": "Nieprawidłowy e-mail lub hasło.",
     "errorEmail": "Wprowadź prawidłowy adres e-mail.",
     "errorPasswordShort": "Hasło musi mieć co najmniej 8 znaków.",
+    "errorPasswordUppercase": "Hasło musi zawierać co najmniej jedną wielką literę.",
+    "errorPasswordDigit": "Hasło musi zawierać co najmniej jedną cyfrę.",
+    "errorRateLimited": "Zbyt wiele prób. Spróbuj ponownie za kilka minut.",
     "errorPasswordMismatch": "Hasła nie pasują do siebie.",
     "errorEmailTaken": "Konto z tym adresem e-mail już istnieje.",
     "accountTitle": "Twoje konto",

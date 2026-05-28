@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { signIn } from "next-auth/react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { Link } from "@/i18n/navigation";
+import { useSearchParams } from "next/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 
 const fieldClass =
   "mt-1.5 w-full rounded-md border border-ink-line/20 bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition-colors focus:border-gold focus:ring-2 focus:ring-gold/30";
@@ -13,10 +13,9 @@ type Status = "idle" | "sending" | "error";
 
 export function LoginForm() {
   const t = useTranslations("Auth");
-  const locale = useLocale();
   const router = useRouter();
   const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get("callbackUrl") ?? `/${locale === "ro" ? "" : `${locale}/`}account`;
+  const callbackUrl = searchParams.get("callbackUrl") ?? "/account";
   const [showPassword, setShowPassword] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
   const [errorKey, setErrorKey] = useState<string>("errorGeneric");
@@ -29,7 +28,7 @@ export function LoginForm() {
     setStatus("sending");
 
     const res = await signIn("credentials", {
-      email: String(data.get("email") ?? ""),
+      email: String(data.get("email") ?? "").trim().toLowerCase(),
       password: String(data.get("password") ?? ""),
       redirect: false,
     });
@@ -39,7 +38,7 @@ export function LoginForm() {
       router.refresh();
       return;
     }
-    setErrorKey("errorCredentials");
+    setErrorKey(res?.error === "rate_limited" ? "errorRateLimited" : "errorCredentials");
     setStatus("error");
   }
 

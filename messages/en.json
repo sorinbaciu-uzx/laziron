@@ -188,6 +188,7 @@
     "formErrorEmail": "Please enter a valid email address.",
     "formErrorMessage": "Please write a message.",
     "formErrorUnavailable": "Message delivery is temporarily unavailable. Please try again later.",
+    "formErrorRateLimited": "Too many attempts. Please try again in a few minutes.",
     "emailLabel": "Email",
     "phoneLabel": "Phone"
   },
@@ -237,7 +238,8 @@
     "errorGeneric": "The request could not be sent. Please try again in a moment.",
     "errorName": "Please enter a valid name.",
     "errorEmail": "Please enter a valid email address.",
-    "errorUnavailable": "Request submission is temporarily unavailable. Please try again later."
+    "errorUnavailable": "Request submission is temporarily unavailable. Please try again later.",
+    "errorRateLimited": "Too many attempts. Please try again in a few minutes."
   },
   "Auth": {
     "accountLabel": "Account",
@@ -261,7 +263,7 @@
     "loginLink": "Sign in",
     "termsLabel": "I agree with the",
     "termsLink": "terms and conditions",
-    "passwordHint": "At least 8 characters",
+    "passwordHint": "At least 8 characters, including 1 digit and 1 uppercase letter.",
     "showPassword": "Show password",
     "hidePassword": "Hide password",
     "loggingIn": "Signing in…",
@@ -270,6 +272,9 @@
     "errorCredentials": "Wrong email or password.",
     "errorEmail": "Please enter a valid email address.",
     "errorPasswordShort": "Password must be at least 8 characters.",
+    "errorPasswordUppercase": "Password must include at least one uppercase letter.",
+    "errorPasswordDigit": "Password must include at least one digit.",
+    "errorRateLimited": "Too many attempts. Please try again in a few minutes.",
     "errorPasswordMismatch": "Passwords do not match.",
     "errorEmailTaken": "An account with this email already exists.",
     "accountTitle": "Your account",

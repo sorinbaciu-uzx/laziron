@@ -188,6 +188,7 @@
     "formErrorEmail": "Te rugăm să introduci o adresă de email validă.",
     "formErrorMessage": "Te rugăm să scrii un mesaj.",
     "formErrorUnavailable": "Trimiterea mesajelor este temporar indisponibilă. Te rugăm să încerci mai târziu.",
+    "formErrorRateLimited": "Prea multe încercări. Te rugăm să încerci din nou peste câteva minute.",
     "emailLabel": "Email",
     "phoneLabel": "Telefon"
   },
@@ -237,7 +238,8 @@
     "errorGeneric": "Cererea nu a putut fi trimisă. Te rugăm să încerci din nou peste câteva momente.",
     "errorName": "Te rugăm să introduci un nume valid.",
     "errorEmail": "Te rugăm să introduci o adresă de email validă.",
-    "errorUnavailable": "Trimiterea cererilor este temporar indisponibilă. Te rugăm să încerci mai târziu."
+    "errorUnavailable": "Trimiterea cererilor este temporar indisponibilă. Te rugăm să încerci mai târziu.",
+    "errorRateLimited": "Prea multe încercări. Te rugăm să încerci din nou peste câteva minute."
   },
   "Footer": {
     "tagline": "Calitate industrială la preț accesibil.",
@@ -478,7 +480,7 @@
     "loginLink": "Autentifică-te",
     "termsLabel": "Sunt de acord cu",
     "termsLink": "termenii și condițiile",
-    "passwordHint": "Minim 8 caractere",
+    "passwordHint": "Minim 8 caractere, cu cel puțin 1 cifră și 1 literă mare.",
     "showPassword": "Arată parola",
     "hidePassword": "Ascunde parola",
     "loggingIn": "Autentificare…",
@@ -487,6 +489,9 @@
     "errorCredentials": "Email sau parolă incorecte.",
     "errorEmail": "Te rugăm să introduci o adresă de email validă.",
     "errorPasswordShort": "Parola trebuie să aibă minim 8 caractere.",
+    "errorPasswordUppercase": "Parola trebuie să conțină cel puțin o literă mare.",
+    "errorPasswordDigit": "Parola trebuie să conțină cel puțin o cifră.",
+    "errorRateLimited": "Prea multe încercări. Te rugăm să încerci din nou peste câteva minute.",
     "errorPasswordMismatch": "Parolele nu coincid.",
     "errorEmailTaken": "Există deja un cont cu acest email.",
     "accountTitle": "Contul tău",

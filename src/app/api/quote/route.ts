@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { fetchAnafData, normalizeCui, type AnafData } from "@/lib/anaf";
+import { getClientIp, rateLimit } from "@/lib/rate-limit";
 
 /**
  * Quote form endpoint — creates a "Lead" item on Monday board 5092118529
@@ -34,6 +35,15 @@ type Body = {
 };
 
 export async function POST(request: Request) {
+  const ip = getClientIp(request.headers);
+  const rl = rateLimit(`quote:${ip}`, 10, 10 * 60 * 1000);
+  if (!rl.allowed) {
+    return NextResponse.json(
+      { ok: false, error: "rate_limited", retryAfter: rl.retryAfterSec },
+      { status: 429, headers: { "Retry-After": String(rl.retryAfterSec ?? 60) } },
+    );
+  }
+
   let body: Body;
   try {
     body = await request.json();

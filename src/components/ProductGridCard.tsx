@@ -52,6 +52,7 @@ export function ProductGridCard({ product }: { product: LocalizedProduct }) {
             product={{
               name: product.content.name,
               cover: product.cover,
+              secondary: product.secondary,
               series: product.series,
             }}
             label={tCommon("offer")}

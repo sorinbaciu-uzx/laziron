@@ -1,6 +1,8 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
+import { headers } from "next/headers";
 import { authenticateUser } from "@/lib/users";
+import { getClientIp, rateLimit, rateLimitReset } from "@/lib/rate-limit";
 
 /**
  * NextAuth v5 config with credentials provider + JWT sessions.
@@ -25,8 +27,18 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const email = typeof credentials?.email === "string" ? credentials.email : "";
         const password = typeof credentials?.password === "string" ? credentials.password : "";
         if (!email || !password) return null;
+
+        const ip = getClientIp(await headers());
+        const key = `login:${ip}`;
+        const rl = rateLimit(key, 5, 15 * 60 * 1000);
+        if (!rl.allowed) {
+          throw new Error("rate_limited");
+        }
+
         const user = await authenticateUser(email, password);
         if (!user) return null;
+
+        rateLimitReset(key);
         return {
           id: String(user.id),
           email: user.email,

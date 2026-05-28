@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { createUser } from "@/lib/users";
+import { getClientIp, rateLimit } from "@/lib/rate-limit";
+import { validatePassword } from "@/lib/password";
 
 export const runtime = "nodejs";
 
@@ -11,6 +13,15 @@ type Body = {
 };
 
 export async function POST(request: Request) {
+  const ip = getClientIp(request.headers);
+  const rl = rateLimit(`register:${ip}`, 10, 10 * 60 * 1000);
+  if (!rl.allowed) {
+    return NextResponse.json(
+      { ok: false, error: "rate_limited", retryAfter: rl.retryAfterSec },
+      { status: 429, headers: { "Retry-After": String(rl.retryAfterSec ?? 60) } },
+    );
+  }
+
   let body: Body;
   try {
     body = await request.json();
@@ -29,8 +40,12 @@ export async function POST(request: Request) {
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return NextResponse.json({ ok: false, error: "email_invalid" }, { status: 400 });
   }
-  if (!password || password.length < 8) {
+  if (!password) {
     return NextResponse.json({ ok: false, error: "password_short" }, { status: 400 });
+  }
+  const pw = validatePassword(password);
+  if (!pw.ok) {
+    return NextResponse.json({ ok: false, error: pw.error }, { status: 400 });
   }
 
   try {

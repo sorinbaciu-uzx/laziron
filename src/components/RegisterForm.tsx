@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { signIn } from "next-auth/react";
-import { useRouter } from "next/navigation";
-import { Link } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
+import { PASSWORD_PATTERN } from "@/lib/password";
 
 const fieldClass =
   "mt-1.5 w-full rounded-md border border-ink-line/20 bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition-colors focus:border-gold focus:ring-2 focus:ring-gold/30";
@@ -13,7 +13,6 @@ type Status = "idle" | "sending" | "error";
 
 export function RegisterForm() {
   const t = useTranslations("Auth");
-  const locale = useLocale();
   const router = useRouter();
   const [showPassword, setShowPassword] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
@@ -49,7 +48,10 @@ export function RegisterForm() {
         const map: Record<string, string> = {
           email_invalid: "errorEmail",
           password_short: "errorPasswordShort",
+          password_no_uppercase: "errorPasswordUppercase",
+          password_no_digit: "errorPasswordDigit",
           email_taken: "errorEmailTaken",
+          rate_limited: "errorRateLimited",
         };
         setErrorKey(map[json.error ?? ""] ?? "errorGeneric");
         setStatus("error");
@@ -61,10 +63,10 @@ export function RegisterForm() {
         redirect: false,
       });
       if (signinRes?.ok) {
-        router.push(`/${locale === "ro" ? "" : `${locale}/`}account`);
+        router.push("/account");
         router.refresh();
       } else {
-        router.push(`/${locale === "ro" ? "" : `${locale}/`}login`);
+        router.push("/login");
       }
     } catch {
       setErrorKey("errorGeneric");
@@ -113,6 +115,7 @@ export function RegisterForm() {
             type={showPassword ? "text" : "password"}
             autoComplete="new-password"
             minLength={8}
+            pattern={PASSWORD_PATTERN}
             required
             className={`${fieldClass} pr-12`}
           />

@@ -49,6 +49,7 @@ export function ContactForm() {
         email_invalid: "formErrorEmail",
         message_required: "formErrorMessage",
         service_unavailable: "formErrorUnavailable",
+        rate_limited: "formErrorRateLimited",
       };
       setErrorKey(map[json.error ?? ""] ?? "formErrorGeneric");
       setStatus("error");

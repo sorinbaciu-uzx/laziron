@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { redirect } from "@/i18n/navigation";
 import { auth } from "@/auth";
 import { findUserById } from "@/lib/users";
 import { LogoutButton } from "@/components/LogoutButton";
@@ -25,8 +25,8 @@ export default async function AccountPage({
 
   const session = await auth();
   if (!session?.user?.id) {
-    const prefix = locale === "ro" ? "" : `/${locale}`;
-    redirect(`${prefix}/login?callbackUrl=${encodeURIComponent(`${prefix}/account`)}`);
+    redirect({ href: { pathname: "/login", query: { callbackUrl: "/account" } }, locale });
+    return null;
   }
 
   const userId = Number(session.user.id);
@@ -35,8 +35,8 @@ export default async function AccountPage({
   const t = await getTranslations("Auth");
 
   if (!user) {
-    const prefix = locale === "ro" ? "" : `/${locale}`;
-    redirect(`${prefix}/login`);
+    redirect({ href: "/login", locale });
+    return null;
   }
 
   return (

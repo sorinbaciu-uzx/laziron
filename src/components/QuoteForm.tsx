@@ -57,6 +57,7 @@ export function QuoteForm({ productName }: { productName: string }) {
         name_required: "errorName",
         email_invalid: "errorEmail",
         service_unavailable: "errorUnavailable",
+        rate_limited: "errorRateLimited",
       };
       setErrorKey(map[json.error ?? ""] ?? "errorGeneric");
       setStatus("error");

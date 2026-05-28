@@ -188,6 +188,7 @@
     "formErrorEmail": "Zadejte prosím platnou e-mailovou adresu.",
     "formErrorMessage": "Napište prosím zprávu.",
     "formErrorUnavailable": "Odesílání zpráv je dočasně nedostupné. Zkuste to prosím později.",
+    "formErrorRateLimited": "Příliš mnoho pokusů. Zkuste to prosím za pár minut.",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefon"
   },
@@ -237,7 +238,8 @@
     "errorGeneric": "Poptávku se nepodařilo odeslat. Zkuste to prosím za chvíli znovu.",
     "errorName": "Zadejte prosím platné jméno.",
     "errorEmail": "Zadejte prosím platnou e-mailovou adresu.",
-    "errorUnavailable": "Odesílání poptávek je dočasně nedostupné. Zkuste to prosím později."
+    "errorUnavailable": "Odesílání poptávek je dočasně nedostupné. Zkuste to prosím později.",
+    "errorRateLimited": "Příliš mnoho pokusů. Zkuste to prosím za pár minut."
   },
   "Auth": {
     "accountLabel": "Účet",
@@ -261,7 +263,7 @@
     "loginLink": "Přihlásit se",
     "termsLabel": "Souhlasím s",
     "termsLink": "obchodními podmínkami",
-    "passwordHint": "Minimálně 8 znaků",
+    "passwordHint": "Minimálně 8 znaků, alespoň 1 číslice a 1 velké písmeno.",
     "showPassword": "Zobrazit heslo",
     "hidePassword": "Skrýt heslo",
     "loggingIn": "Přihlašování…",
@@ -270,6 +272,9 @@
     "errorCredentials": "Špatný e-mail nebo heslo.",
     "errorEmail": "Zadejte prosím platnou e-mailovou adresu.",
     "errorPasswordShort": "Heslo musí mít alespoň 8 znaků.",
+    "errorPasswordUppercase": "Heslo musí obsahovat alespoň jedno velké písmeno.",
+    "errorPasswordDigit": "Heslo musí obsahovat alespoň jednu číslici.",
+    "errorRateLimited": "Příliš mnoho pokusů. Zkuste to prosím za pár minut.",
     "errorPasswordMismatch": "Hesla se neshodují.",
     "errorEmailTaken": "Účet s tímto e-mailem již existuje.",
     "accountTitle": "Váš účet",

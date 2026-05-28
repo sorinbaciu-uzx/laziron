@@ -1,19 +1,46 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { signIn } from "next-auth/react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 
 const fieldClass =
   "mt-1.5 w-full rounded-md border border-ink-line/20 bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition-colors focus:border-gold focus:ring-2 focus:ring-gold/30";
 
+type Status = "idle" | "sending" | "error";
+
 export function LoginForm() {
   const t = useTranslations("Auth");
+  const locale = useLocale();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const callbackUrl = searchParams.get("callbackUrl") ?? `/${locale === "ro" ? "" : `${locale}/`}account`;
   const [showPassword, setShowPassword] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
+  const [errorKey, setErrorKey] = useState<string>("errorGeneric");
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // Design-only. Auth wiring is added once Vercel + backend are configured.
+    if (status === "sending") return;
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    setStatus("sending");
+
+    const res = await signIn("credentials", {
+      email: String(data.get("email") ?? ""),
+      password: String(data.get("password") ?? ""),
+      redirect: false,
+    });
+
+    if (res?.ok) {
+      router.push(callbackUrl);
+      router.refresh();
+      return;
+    }
+    setErrorKey("errorCredentials");
+    setStatus("error");
   }
 
   return (
@@ -88,11 +115,21 @@ export function LoginForm() {
         </a>
       </div>
 
+      {status === "error" && (
+        <p
+          role="alert"
+          className="rounded-md border border-red-300 bg-red-50 px-3 py-2 text-xs text-red-700"
+        >
+          {t(errorKey)}
+        </p>
+      )}
+
       <button
         type="submit"
-        className="w-full rounded-md bg-gold px-6 py-3 font-semibold text-ink transition-colors hover:bg-gold-dark"
+        disabled={status === "sending"}
+        className="w-full rounded-md bg-gold px-6 py-3 font-semibold text-ink transition-colors hover:bg-gold-dark disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {t("loginCta")}
+        {status === "sending" ? t("loggingIn") : t("loginCta")}
       </button>
 
       <p className="text-center text-sm text-ink/70">

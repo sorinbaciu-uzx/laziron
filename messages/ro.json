@@ -224,11 +224,20 @@
     "name": "Nume complet",
     "email": "Email",
     "phone": "Telefon",
+    "company": "Companie",
+    "cui": "CUI",
+    "cuiPlaceholder": "Ex: RO12345678",
+    "cuiHelp": "Opțional. Dacă firma e din România, completăm automat datele.",
     "message": "Mesaj",
     "submit": "Trimite cererea",
+    "sending": "Se trimite…",
     "success": "Îți mulțumim! Am primit cererea ta și revenim cât de curând cu o ofertă personalizată.",
     "note": "Câmpurile marcate sunt obligatorii.",
-    "close": "Închide"
+    "close": "Închide",
+    "errorGeneric": "Cererea nu a putut fi trimisă. Te rugăm să încerci din nou peste câteva momente.",
+    "errorName": "Te rugăm să introduci un nume valid.",
+    "errorEmail": "Te rugăm să introduci o adresă de email validă.",
+    "errorUnavailable": "Trimiterea cererilor este temporar indisponibilă. Te rugăm să încerci mai târziu."
   },
   "Footer": {
     "tagline": "Calitate industrială la preț accesibil.",
@@ -472,6 +481,19 @@
     "passwordHint": "Minim 8 caractere",
     "showPassword": "Arată parola",
     "hidePassword": "Ascunde parola",
-    "demoNotice": "Pagină de design. Autentificarea reală se conectează ulterior."
+    "loggingIn": "Autentificare…",
+    "registering": "Se creează contul…",
+    "errorGeneric": "A apărut o problemă. Te rugăm să încerci din nou peste câteva momente.",
+    "errorCredentials": "Email sau parolă incorecte.",
+    "errorEmail": "Te rugăm să introduci o adresă de email validă.",
+    "errorPasswordShort": "Parola trebuie să aibă minim 8 caractere.",
+    "errorPasswordMismatch": "Parolele nu coincid.",
+    "errorEmailTaken": "Există deja un cont cu acest email.",
+    "accountTitle": "Contul tău",
+    "accountSubtitle": "Detaliile contului tău LAZIRON.",
+    "accountName": "Nume",
+    "accountEmail": "Email",
+    "accountCreatedAt": "Membru din",
+    "logout": "Deconectare"
   }
 }

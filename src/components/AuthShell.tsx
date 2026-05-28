@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { useTranslations } from "next-intl";
 
 type Props = {
   title: string;
@@ -8,8 +7,6 @@ type Props = {
 };
 
 export function AuthShell({ title, subtitle, children }: Props) {
-  const t = useTranslations("Auth");
-
   return (
     <section className="relative overflow-hidden bg-white py-12 sm:py-16 lg:py-24">
       <div className="dot-grid absolute inset-0 opacity-50" aria-hidden="true" />
@@ -31,10 +28,6 @@ export function AuthShell({ title, subtitle, children }: Props) {
 
             <div className="mt-8">{children}</div>
           </div>
-
-          <p className="mt-4 text-center text-xs text-ink/50">
-            {t("demoNotice")}
-          </p>
         </div>
       </div>
     </section>

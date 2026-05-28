@@ -1,23 +1,88 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { signIn } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 
 const fieldClass =
   "mt-1.5 w-full rounded-md border border-ink-line/20 bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition-colors focus:border-gold focus:ring-2 focus:ring-gold/30";
 
+type Status = "idle" | "sending" | "error";
+
 export function RegisterForm() {
   const t = useTranslations("Auth");
+  const locale = useLocale();
+  const router = useRouter();
   const [showPassword, setShowPassword] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
+  const [errorKey, setErrorKey] = useState<string>("errorGeneric");
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // Design-only. Account creation is wired in once Vercel + backend are live.
+    if (status === "sending") return;
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const password = String(data.get("password") ?? "");
+    const confirm = String(data.get("confirmPassword") ?? "");
+    if (password !== confirm) {
+      setErrorKey("errorPasswordMismatch");
+      setStatus("error");
+      return;
+    }
+    setStatus("sending");
+
+    try {
+      const res = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: String(data.get("name") ?? ""),
+          email: String(data.get("email") ?? ""),
+          password,
+          honeypot: String(data.get("website") ?? ""),
+        }),
+      });
+      const json = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string };
+      if (!res.ok || !json.ok) {
+        const map: Record<string, string> = {
+          email_invalid: "errorEmail",
+          password_short: "errorPasswordShort",
+          email_taken: "errorEmailTaken",
+        };
+        setErrorKey(map[json.error ?? ""] ?? "errorGeneric");
+        setStatus("error");
+        return;
+      }
+      const signinRes = await signIn("credentials", {
+        email: String(data.get("email") ?? ""),
+        password,
+        redirect: false,
+      });
+      if (signinRes?.ok) {
+        router.push(`/${locale === "ro" ? "" : `${locale}/`}account`);
+        router.refresh();
+      } else {
+        router.push(`/${locale === "ro" ? "" : `${locale}/`}login`);
+      }
+    } catch {
+      setErrorKey("errorGeneric");
+      setStatus("error");
+    }
   }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5" noValidate>
+      {/* Honeypot */}
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="hidden"
+      />
       <label className="block text-sm font-medium text-ink">
         {t("name")}
         <input
@@ -107,20 +172,32 @@ export function RegisterForm() {
         />
         <span>
           {t("termsLabel")}{" "}
-          <a
-            href="#"
+          <Link
+            href="/terms"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-semibold text-gold-dark transition-colors hover:text-ink"
           >
             {t("termsLink")}
-          </a>
+          </Link>
         </span>
       </label>
 
+      {status === "error" && (
+        <p
+          role="alert"
+          className="rounded-md border border-red-300 bg-red-50 px-3 py-2 text-xs text-red-700"
+        >
+          {t(errorKey)}
+        </p>
+      )}
+
       <button
         type="submit"
-        className="w-full rounded-md bg-gold px-6 py-3 font-semibold text-ink transition-colors hover:bg-gold-dark"
+        disabled={status === "sending"}
+        className="w-full rounded-md bg-gold px-6 py-3 font-semibold text-ink transition-colors hover:bg-gold-dark disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {t("registerCta")}
+        {status === "sending" ? t("registering") : t("registerCta")}
       </button>
 
       <p className="text-center text-sm text-ink/70">

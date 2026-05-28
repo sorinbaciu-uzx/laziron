@@ -224,11 +224,20 @@
     "name": "Celé jméno",
     "email": "E-mail",
     "phone": "Telefon",
+    "company": "Společnost",
+    "cui": "DIČ / CUI",
+    "cuiPlaceholder": "Např. RO12345678",
+    "cuiHelp": "Volitelné. U rumunských firem automaticky doplníme údaje.",
     "message": "Zpráva",
     "submit": "Odeslat poptávku",
+    "sending": "Odesílá se…",
     "success": "Děkujeme! Vaši poptávku jsme přijali a brzy se vám ozveme s individuální nabídkou.",
     "note": "Označená pole jsou povinná.",
-    "close": "Zavřít"
+    "close": "Zavřít",
+    "errorGeneric": "Poptávku se nepodařilo odeslat. Zkuste to prosím za chvíli znovu.",
+    "errorName": "Zadejte prosím platné jméno.",
+    "errorEmail": "Zadejte prosím platnou e-mailovou adresu.",
+    "errorUnavailable": "Odesílání poptávek je dočasně nedostupné. Zkuste to prosím později."
   },
   "Auth": {
     "accountLabel": "Účet",
@@ -255,7 +264,20 @@
     "passwordHint": "Minimálně 8 znaků",
     "showPassword": "Zobrazit heslo",
     "hidePassword": "Skrýt heslo",
-    "demoNotice": "Náhled designu. Skutečné přihlášení bude doplněno později."
+    "loggingIn": "Přihlašování…",
+    "registering": "Vytváření účtu…",
+    "errorGeneric": "Něco se pokazilo. Zkuste to prosím za chvíli znovu.",
+    "errorCredentials": "Špatný e-mail nebo heslo.",
+    "errorEmail": "Zadejte prosím platnou e-mailovou adresu.",
+    "errorPasswordShort": "Heslo musí mít alespoň 8 znaků.",
+    "errorPasswordMismatch": "Hesla se neshodují.",
+    "errorEmailTaken": "Účet s tímto e-mailem již existuje.",
+    "accountTitle": "Váš účet",
+    "accountSubtitle": "Detaily vašeho účtu LAZIRON.",
+    "accountName": "Jméno",
+    "accountEmail": "E-mail",
+    "accountCreatedAt": "Členem od",
+    "logout": "Odhlásit se"
   },
   "CookieBanner": {
     "title": "Používáme cookies",

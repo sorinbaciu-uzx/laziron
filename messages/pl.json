@@ -224,11 +224,20 @@
     "name": "Imię i nazwisko",
     "email": "E-mail",
     "phone": "Telefon",
+    "company": "Firma",
+    "cui": "NIP / CUI",
+    "cuiPlaceholder": "Np. RO12345678",
+    "cuiHelp": "Opcjonalnie. Dla rumuńskich firm automatycznie uzupełniamy dane.",
     "message": "Wiadomość",
     "submit": "Wyślij zapytanie",
+    "sending": "Wysyłanie…",
     "success": "Dziękujemy! Otrzymaliśmy Twoje zapytanie i wkrótce się odezwiemy z indywidualną ofertą.",
     "note": "Pola oznaczone są wymagane.",
-    "close": "Zamknij"
+    "close": "Zamknij",
+    "errorGeneric": "Zapytania nie udało się wysłać. Spróbuj ponownie za chwilę.",
+    "errorName": "Wprowadź prawidłowe imię.",
+    "errorEmail": "Wprowadź prawidłowy adres e-mail.",
+    "errorUnavailable": "Wysyłanie zapytań jest tymczasowo niedostępne. Spróbuj ponownie później."
   },
   "Auth": {
     "accountLabel": "Konto",
@@ -255,7 +264,20 @@
     "passwordHint": "Co najmniej 8 znaków",
     "showPassword": "Pokaż hasło",
     "hidePassword": "Ukryj hasło",
-    "demoNotice": "Podgląd designu. Prawdziwe logowanie zostanie podłączone później."
+    "loggingIn": "Logowanie…",
+    "registering": "Tworzenie konta…",
+    "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie za chwilę.",
+    "errorCredentials": "Nieprawidłowy e-mail lub hasło.",
+    "errorEmail": "Wprowadź prawidłowy adres e-mail.",
+    "errorPasswordShort": "Hasło musi mieć co najmniej 8 znaków.",
+    "errorPasswordMismatch": "Hasła nie pasują do siebie.",
+    "errorEmailTaken": "Konto z tym adresem e-mail już istnieje.",
+    "accountTitle": "Twoje konto",
+    "accountSubtitle": "Szczegóły Twojego konta LAZIRON.",
+    "accountName": "Imię",
+    "accountEmail": "E-mail",
+    "accountCreatedAt": "Członek od",
+    "logout": "Wyloguj się"
   },
   "CookieBanner": {
     "title": "Używamy cookies",

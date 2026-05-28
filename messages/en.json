@@ -224,11 +224,20 @@
     "name": "Full name",
     "email": "Email",
     "phone": "Phone",
+    "company": "Company",
+    "cui": "Tax ID (CUI)",
+    "cuiPlaceholder": "e.g. RO12345678",
+    "cuiHelp": "Optional. For Romanian companies, we auto-fill registration data.",
     "message": "Message",
     "submit": "Send request",
+    "sending": "Sending…",
     "success": "Thank you! We received your request and will get back to you shortly with a personalized quote.",
     "note": "Marked fields are required.",
-    "close": "Close"
+    "close": "Close",
+    "errorGeneric": "The request could not be sent. Please try again in a moment.",
+    "errorName": "Please enter a valid name.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorUnavailable": "Request submission is temporarily unavailable. Please try again later."
   },
   "Auth": {
     "accountLabel": "Account",
@@ -255,7 +264,20 @@
     "passwordHint": "At least 8 characters",
     "showPassword": "Show password",
     "hidePassword": "Hide password",
-    "demoNotice": "Design preview. Real authentication will be wired in later."
+    "loggingIn": "Signing in…",
+    "registering": "Creating account…",
+    "errorGeneric": "Something went wrong. Please try again in a moment.",
+    "errorCredentials": "Wrong email or password.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorPasswordShort": "Password must be at least 8 characters.",
+    "errorPasswordMismatch": "Passwords do not match.",
+    "errorEmailTaken": "An account with this email already exists.",
+    "accountTitle": "Your account",
+    "accountSubtitle": "Your LAZIRON account details.",
+    "accountName": "Name",
+    "accountEmail": "Email",
+    "accountCreatedAt": "Member since",
+    "logout": "Sign out"
   },
   "CookieBanner": {
     "title": "We use cookies",

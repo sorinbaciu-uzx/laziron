@@ -61,14 +61,10 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: "service_unavailable" }, { status: 503 });
   }
 
-  const messageWithSource = body.sourceUrl?.trim()
-    ? `${message}\n\n— Sursă: ${body.sourceUrl.trim()}`
-    : message;
-
   const columnValues: Record<string, unknown> = {
     text_mm3r9p4h: SITE_LABEL,
     lead_email: { email, text: email },
-    long_text_mm1q2mrq: { text: messageWithSource },
+    long_text_mm1q2mrq: { text: message },
   };
   if (body.phone?.trim()) {
     columnValues.lead_phone = { phone: body.phone.trim(), countryShortName: "RO" };

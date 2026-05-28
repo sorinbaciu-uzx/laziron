@@ -3,6 +3,7 @@
 import { Fragment, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { useSession } from "next-auth/react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { PRODUCT_CATEGORIES } from "@/lib/products";
@@ -21,6 +22,9 @@ export function Header() {
   const tAuth = useTranslations("Auth");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const { data: session } = useSession();
+  const accountHref = session?.user ? "/account" : "/login";
+  const accountLabel = session?.user?.name?.split(" ")[0] ?? tAuth("accountLabel");
 
   const isActive = (href: string) =>
     pathname === href || pathname.startsWith(`${href}/`);
@@ -116,10 +120,12 @@ export function Header() {
 
         <div className="flex items-center gap-1.5 sm:gap-2">
           <Link
-            href="/login"
-            aria-label={tAuth("accountLabel")}
-            title={tAuth("accountLabel")}
-            className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-ink-line/20 text-ink transition-colors hover:border-gold hover:text-gold"
+            href={accountHref}
+            aria-label={accountLabel}
+            title={accountLabel}
+            className={`inline-flex h-9 items-center justify-center rounded-md border border-ink-line/20 text-ink transition-colors hover:border-gold hover:text-gold ${
+              session?.user ? "gap-1.5 px-2.5 text-sm font-semibold" : "w-9"
+            }`}
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <circle cx="12" cy="8" r="4" stroke="currentColor" strokeWidth="1.7" />
@@ -130,6 +136,11 @@ export function Header() {
                 strokeLinecap="round"
               />
             </svg>
+            {session?.user && (
+              <span className="hidden max-w-[8rem] truncate sm:inline">
+                {accountLabel}
+              </span>
+            )}
           </Link>
 
           <LanguageSwitcher />
@@ -190,11 +201,11 @@ export function Header() {
             ))}
 
             <Link
-              href="/login"
+              href={accountHref}
               onClick={() => setOpen(false)}
               className="mt-2 border-t border-ink-line/10 pt-3 text-sm font-semibold tracking-wide text-ink uppercase"
             >
-              {tAuth("accountLabel")}
+              {session?.user ? accountLabel : tAuth("accountLabel")}
             </Link>
           </div>
         </nav>

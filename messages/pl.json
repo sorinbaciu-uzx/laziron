@@ -218,7 +218,17 @@
     "ctaTitle": "Chcesz wiedzieć więcej?",
     "ctaText": "Napisz do nas, a wrócimy ze szczegółami, konfiguracjami i ofertą na miarę.",
     "officeTitle": "Biuro",
-    "officeMapsCta": "Zobacz na mapie"
+    "officeMapsCta": "Zobacz na mapie",
+
+    "officeEyebrow": "Siedziba LAZIRON",
+    "officeTitle": "Produkcja przemysłowa w Chinach, eksport do Rumunii",
+    "officeText": "Urządzenia LAZIRON są produkowane w Chinach i dostarczane do Rumunii za pośrednictwem lokalnych partnerów, z bezpłatnym wsparciem w zakresie doradztwa, konfiguracji i serwisu.",
+    "officePhoto1Title": "Nasze centrum produkcyjne",
+    "officePhoto2Title": "Strefa produkcji",
+    "officePhoto3Title": "Urządzenia przemysłowe",
+    "officePhoto4Title": "Maszyny techniczne",
+    "officePhoto5Title": "Kontrola i montaż",
+    "officePhoto6Title": "Fabryka w Chinach"
   },
   "Quote": {
     "title": "Zapytaj o ofertę",

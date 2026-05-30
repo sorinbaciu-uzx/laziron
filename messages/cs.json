@@ -218,7 +218,17 @@
     "ctaTitle": "Chcete vědět více?",
     "ctaText": "Napište nám a ozveme se s detaily, konfiguracemi a nabídkou na míru.",
     "officeTitle": "Kancelář",
-    "officeMapsCta": "Zobrazit na mapě"
+    "officeMapsCta": "Zobrazit na mapě",
+
+    "officeEyebrow": "Sídlo LAZIRON",
+    "officeTitle": "Průmyslová výroba v Číně, export do Rumunska",
+    "officeText": "Zařízení LAZIRON jsou vyráběna v Číně a dodávána do Rumunska prostřednictvím místních partnerů, s bezplatnou podporou pro poradenství, konfiguraci a servis.",
+    "officePhoto1Title": "Naše výrobní centrum",
+    "officePhoto2Title": "Výrobní prostor",
+    "officePhoto3Title": "Průmyslová zařízení",
+    "officePhoto4Title": "Technické stroje",
+    "officePhoto5Title": "Kontrola a montáž",
+    "officePhoto6Title": "Továrna v Číně"
   },
   "Quote": {
     "title": "Vyžádat nabídku",

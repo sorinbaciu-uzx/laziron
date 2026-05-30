@@ -218,7 +218,17 @@
     "ctaTitle": "Vrei să afli mai multe?",
     "ctaText": "Scrie-ne și revenim cu detalii, configurații și o ofertă personalizată.",
     "officeTitle": "Sediu",
-    "officeMapsCta": "Vezi pe hartă"
+    "officeMapsCta": "Vezi pe hartă",
+    
+    "officeEyebrow": "Sediul LAZIRON",
+    "officeTitle": "Producție industrială în China, export către România",
+    "officeText": "Echipamentele LAZIRON sunt produse în China și livrate către România prin parteneri locali, cu suport oferit gratis pentru consultanță, configurare și service.",
+    "officePhoto1Title": "Centrul nostru de producție",
+    "officePhoto2Title": "Zona de fabricație",
+    "officePhoto3Title": "Echipamente industriale",
+    "officePhoto4Title": "Utilaje tehnice",
+    "officePhoto5Title": "Control și asamblare",
+    "officePhoto6Title": "Fabrica din China"
   },
   "Quote": {
     "title": "Cere o ofertă",

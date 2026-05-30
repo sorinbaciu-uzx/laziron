@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/Reveal";
@@ -8,32 +9,26 @@ import { HeroCarousel } from "@/components/HeroCarousel";
 import { OfficeAddress } from "@/components/OfficeAddress";
 
 const points = [1, 2, 3, 4, 5, 6] as const;
+const officePhotoNumbers = [1, 2, 3, 4, 5, 6] as const;
 
-// Simple line icons for the trust points.
 const pointIcons = [
-  // Team
   <path
     key="i"
     d="M17 20v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2M9 8a3 3 0 100-6 3 3 0 000 6M21 20v-2a3 3 0 00-2.2-2.9"
   />,
-  // Support
   <path
     key="i"
     d="M4 13v-1a8 8 0 0116 0v1M4 13a2 2 0 002 2h1v-5H6a2 2 0 00-2 2zM20 13a2 2 0 01-2 2h-1v-5h1a2 2 0 012 2zM17 19a3 3 0 01-3 2h-2"
   />,
-  // Shield (warranty)
   <path key="i" d="M12 3l8 3v5c0 4.5-3.2 7.6-8 9-4.8-1.4-8-4.5-8-9V6l8-3zM9 12l2 2 4-4" />,
-  // Eye (inspection)
   <path
     key="i"
     d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6zM12 9a3 3 0 100 6 3 3 0 000-6z"
   />,
-  // Certificate (CE)
   <path
     key="i"
     d="M12 14a5 5 0 100-10 5 5 0 000 10zM9 13l-1 8 4-2 4 2-1-8M10.5 9l1 1 2.5-2.5"
   />,
-  // Tag (price)
   <path key="i" d="M4 13l7-7 9 9-7 7-9-9zM8 9h.01" />,
 ];
 
@@ -57,12 +52,15 @@ export default async function AboutPage({
   const t = await getTranslations("About");
   const tCommon = await getTranslations("Common");
 
+  const officePhotos = officePhotoNumbers.map((n) => ({
+    src: `/images/sediu${n}.webp`,
+    alt: t(`officePhoto${n}Title`),
+    title: t(`officePhoto${n}Title`),
+  }));
+
   return (
     <>
-      {/* Header — full-bleed image with title overlaid */}
-      <HeroCarousel
-        images={[{ src: "/images/desprenoi.webp", alt: t("title") }]}
-      >
+      <HeroCarousel images={[{ src: "/images/desprenoi.webp", alt: t("title") }]}>
         <div className="container-page flex min-h-[20rem] items-center py-12 sm:min-h-[24rem] sm:py-16 lg:min-h-[28rem]">
           <div className="max-w-xl">
             <h1 className="text-3xl font-extrabold leading-tight text-ink sm:text-4xl lg:text-5xl">
@@ -86,13 +84,52 @@ export default async function AboutPage({
         </div>
       </HeroCarousel>
 
-      {/* Story + office address */}
       <AboutStorySection aside={<OfficeAddress />} />
 
-      {/* From China to Romania — value proposition band */}
+      <section className="bg-white py-12 sm:py-16">
+        <div className="container-page">
+          <Reveal>
+            <div className="mb-8 max-w-2xl">
+              <p className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-gold-dark uppercase">
+                <span className="dot-pulse h-2 w-2 rounded-full bg-gold" />
+                {t("officeEyebrow")}
+              </p>
+              <h2 className="mt-3 text-2xl font-extrabold text-ink sm:text-3xl lg:text-4xl">
+                {t("officeTitle")}
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-ink/70">
+                {t("officeText")}
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {officePhotos.map((photo, index) => (
+              <Reveal key={photo.src} delay={index * 100}>
+                <article className="group overflow-hidden rounded-2xl border border-ink/10 bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-gold/60 hover:shadow-xl hover:shadow-gold/10">
+                  <div className="relative aspect-[4/3] overflow-hidden bg-ink/5">
+                    <Image
+                      src={photo.src}
+                      alt={photo.alt}
+                      fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="px-5 py-5 text-center">
+                    <h3 className="text-lg font-extrabold uppercase tracking-wide text-ink">
+                      {photo.title}
+                    </h3>
+                  </div>
+                </article>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <OriginSection />
 
-      {/* Trust points */}
       <section className="border-y border-ink/10 bg-white py-12 sm:py-16">
         <div className="container-page">
           <div className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-3">
@@ -115,7 +152,9 @@ export default async function AboutPage({
                     </svg>
                   </span>
                   <div className="min-w-0">
-                    <h3 className="text-sm font-bold text-ink sm:text-base">{t(`point${n}Title`)}</h3>
+                    <h3 className="text-sm font-bold text-ink sm:text-base">
+                      {t(`point${n}Title`)}
+                    </h3>
                     <p className="mt-1 text-xs text-ink/65 sm:text-sm">
                       {t(`point${n}Desc`)}
                     </p>
@@ -127,7 +166,6 @@ export default async function AboutPage({
         </div>
       </section>
 
-      {/* CTA */}
       <section className="bg-white py-12 sm:py-16">
         <div className="container-page">
           <Reveal>

@@ -218,7 +218,17 @@
     "ctaTitle": "Want to know more?",
     "ctaText": "Write to us and we'll come back with details, configurations and a tailored quote.",
     "officeTitle": "Office",
-    "officeMapsCta": "View on map"
+    "officeMapsCta": "View on map",
+
+    "officeEyebrow": "LAZIRON Headquarters",
+    "officeTitle": "Industrial production in China, export to Romania",
+    "officeText": "LAZIRON equipment is manufactured in China and delivered to Romania through local partners, with free support for consulting, configuration and service.",
+    "officePhoto1Title": "Our production center",
+    "officePhoto2Title": "Manufacturing area",
+    "officePhoto3Title": "Industrial equipment",
+    "officePhoto4Title": "Technical machinery",
+    "officePhoto5Title": "Control and assembly",
+    "officePhoto6Title": "Factory in China"
   },
   "Quote": {
     "title": "Request a quote",

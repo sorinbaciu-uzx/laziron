@@ -10,7 +10,6 @@ import { routing, type Locale } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
-import { AuthProvider } from "@/components/AuthProvider";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -59,12 +58,10 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="flex min-h-screen flex-col">
         <NextIntlClientProvider messages={messages}>
-          <AuthProvider>
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-            <CookieBanner />
-          </AuthProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <CookieBanner />
         </NextIntlClientProvider>
       </body>
     </html>

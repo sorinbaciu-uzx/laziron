@@ -48,7 +48,7 @@
     "feature2Desc": "Duże prędkości cięcia skracają czas produkcji i zwiększają wydajność.",
     "feature3Title": "Niskie koszty",
     "feature3Desc": "Niskie zużycie energii i minimalna konserwacja dla niskiego kosztu całkowitego.",
-    "feature4Title": "Gwarancja 60 miesięcy",
+    "feature4Title": "Gwarancja 120 miesięcy",
     "feature4Desc": "Rozszerzone pokrycie maszyny i kluczowych komponentów dla bezpiecznej inwestycji.",
     "productsTitle": "Nasze produkty",
     "productsSubtitle": "Maszyny zaprojektowane do cięcia blach i rur metalowych.",
@@ -66,7 +66,7 @@
     "laserEyebrow": "Jakość w dobrej cenie",
     "laserTitle": "Technologia laserowa w uczciwej cenie",
     "laserSubtitle": "Te same komponenty, których używają więksi producenci, w maszynie, na którą stać każdy poważny warsztat. Płacisz za technologię, a nie za nazwę na obudowie.",
-    "laserHighlight": "Gwarancja 60 miesięcy na sprzęt",
+    "laserHighlight": "Gwarancja 120 miesięcy na sprzęt",
     "laserStep1": "Maszyna gotowa",
     "laserStep2": "Pozycjonowanie głowicy",
     "laserStep3": "Ogniskowanie wiązki",
@@ -99,7 +99,7 @@
     "overviewTitle": "Przegląd",
     "descriptionHeading": "O tym produkcie",
     "keySpecsTitle": "Kluczowe parametry",
-    "warrantyBadge": "Gwarancja 60 miesięcy",
+    "warrantyBadge": "Gwarancja 120 miesięcy",
     "specsTitle": "Specyfikacja techniczna",
     "featuresTitle": "Najważniejsze cechy",
     "applicationsTitle": "Zastosowania",
@@ -125,7 +125,7 @@
     "point1Title": "Przystępna cena",
     "point1Desc": "Wydajna produkcja w Chinach, bez marży europejskich marek. Inwestujesz w technologię, a nie w drogie logo.",
     "point2Title": "Lokalne wsparcie",
-    "point2Desc": "Lokalny zespół do instalacji, szkolenia i szybkiego serwisu, z 60-miesięczną gwarancją i częściami zamiennymi dostępnymi lokalnie.",
+    "point2Desc": "Lokalny zespół do instalacji, szkolenia i szybkiego serwisu, z 120-miesięczną gwarancją i częściami zamiennymi dostępnymi lokalnie.",
     "point3Title": "Zweryfikowana jakość",
     "point3Desc": "Bezpłatna kontrola przed dostawą i komponenty z certyfikatem CE, zgodne z międzynarodowymi normami.",
     "cta": "Wyślij zapytanie"
@@ -207,7 +207,7 @@
     "point1Desc": "Mówimy tym samym językiem i rozumiemy potrzeby lokalnych warsztatów.",
     "point2Title": "Wsparcie przez cały okres użytkowania",
     "point2Desc": "Pomoc techniczna, szkolenie i szybki serwis w Twoim języku.",
-    "point3Title": "Gwarancja 60 miesięcy",
+    "point3Title": "Gwarancja 120 miesięcy",
     "point3Desc": "Rozszerzone pokrycie sprzętu i dostęp do części zamiennych, gdy ich potrzebujesz.",
     "point4Title": "Kontrola przed wysyłką",
     "point4Desc": "Zobacz maszynę przetestowaną na Twoim materiale, na żywo lub na miejscu, przed wysyłką.",
@@ -228,7 +228,9 @@
     "officePhoto3Title": "Urządzenia przemysłowe",
     "officePhoto4Title": "Maszyny techniczne",
     "officePhoto5Title": "Kontrola i montaż",
-    "officePhoto6Title": "Fabryka w Chinach"
+    "officePhoto6Title": "Fabryka w Chinach",
+
+    "officeAddressTitle": "Siedziba LAZIRON"
   },
   "Quote": {
     "title": "Zapytaj o ofertę",
@@ -476,14 +478,14 @@
     },
     "warranty": {
       "metaTitle": "Polityka gwarancji — LAZIRON",
-      "metaDescription": "Przedłużona gwarancja 60 miesięcy na sprzęt LAZIRON.",
+      "metaDescription": "Przedłużona gwarancja 120 miesięcy na sprzęt LAZIRON.",
       "title": "Polityka gwarancji",
       "linkLabel": "Polityka gwarancji",
-      "lead": "Przedłużona gwarancja handlowa 60 miesięcy na sprzęt LAZIRON.",
+      "lead": "Przedłużona gwarancja handlowa 120 miesięcy na sprzęt LAZIRON.",
       "sections": [
         {
           "heading": "Zakres",
-          "body": "Oferujemy gwarancję handlową 60 miesięcy na korpus maszyny i krytyczne komponenty mechaniczne (rama, prowadnice, silniki, śruby kulowe). Źródło lasera, głowica tnąca i system sterowania CNC objęte są gwarancjami producentów oryginalnych, zgodnie z ich warunkami."
+          "body": "Oferujemy gwarancję handlową 120 miesięcy na korpus maszyny i krytyczne komponenty mechaniczne (rama, prowadnice, silniki, śruby kulowe). Źródło lasera, głowica tnąca i system sterowania CNC objęte są gwarancjami producentów oryginalnych, zgodnie z ich warunkami."
         },
         {
           "heading": "Co jest objęte",

@@ -3,19 +3,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { PRODUCT_CATEGORIES } from "@/lib/products";
 
-const legalBadges = [
-  {
-    src: "/images/anpc.webp",
-    alt: "ANPC — Soluționarea Alternativă a Litigiilor",
-    href: "https://anpc.ro/ce-este-sal/",
-  },
-  {
-    src: "/images/sol.webp",
-    alt: "SOL — Soluționarea Online a Litigiilor",
-    href: "https://consumer-redress.ec.europa.eu/site-relocation_en",
-  },
-] as const;
-
 const navItems = [
   { key: "home", href: "/" },
   { key: "products", href: "/products" },
@@ -63,30 +50,10 @@ export function Footer() {
               width={520}
               height={260}
               quality={95}
-              className="h-20 w-auto sm:h-28 lg:h-32"
+              className="h-24 w-auto sm:h-32 lg:h-40"
             />
-            <div className="mt-6 flex flex-col items-start gap-4 sm:pl-8">
-              {legalBadges.map((badge) => (
-                <a
-                  key={badge.href}
-                  href={badge.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={badge.alt}
-                  className="inline-block transition-opacity hover:opacity-80"
-                >
-                  <Image
-                    src={badge.src}
-                    alt={badge.alt}
-                    width={220}
-                    height={80}
-                    className="h-12 w-auto"
-                  />
-                </a>
-              ))}
             </div>
-          </div>
-
+            
           {/* Navigation */}
           <nav className="lg:col-span-2" aria-label={tFooter("navTitle")}>
             <h3 className="text-xs font-semibold tracking-widest text-gold-dark uppercase">
@@ -128,9 +95,9 @@ export function Footer() {
           {/* Office address */}
           <div className="lg:col-span-3">
             <h3 className="text-xs font-semibold tracking-widest text-gold-dark uppercase">
-              {tAbout("officeTitle")}
+              {tAbout("officeAddressTitle")}
             </h3>
-            <p className="mt-5 text-sm font-bold text-ink">Laziron Office</p>
+            <p className="mt-5 text-sm font-bold text-ink">Shenzhen Laziron Laser CNC Co., Ltd.</p>
             <address className="mt-1 text-sm leading-relaxed text-ink/70 not-italic">
               Kerry Plaza Tower 2<br />
               No. 1 Zhong Xin Fourth Road<br />
@@ -159,7 +126,7 @@ export function Footer() {
             ))}
           </nav>
           <p className="mt-4 text-center text-xs text-ink/55">
-            &copy; {year} LAZIRON. {tFooter("rights")}
+            &copy; {year} Shenzhen Laziron Laser CNC Co., Ltd. {tFooter("rights")}
           </p>
         </div>
       </div>

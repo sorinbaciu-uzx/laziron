@@ -48,7 +48,7 @@
     "feature2Desc": "Fast cutting speeds that reduce production time and increase output.",
     "feature3Title": "Low costs",
     "feature3Desc": "Low energy consumption and minimal maintenance for a low total cost.",
-    "feature4Title": "60-month warranty",
+    "feature4Title": "120-month warranty",
     "feature4Desc": "Extended coverage on the equipment and critical components, for a worry-free investment.",
     "productsTitle": "Our products",
     "productsSubtitle": "Machines built for cutting sheet and tube metal.",
@@ -66,7 +66,7 @@
     "laserEyebrow": "Affordable quality",
     "laserTitle": "Laser technology, at a fair price",
     "laserSubtitle": "The same components the major manufacturers use, in a machine any serious workshop can afford. You pay for the technology, not for the name on the cover.",
-    "laserHighlight": "60-month warranty on the equipment",
+    "laserHighlight": "120-month warranty on the equipment",
     "laserStep1": "Machine ready",
     "laserStep2": "Head positioning",
     "laserStep3": "Beam focusing",
@@ -99,7 +99,7 @@
     "overviewTitle": "Overview",
     "descriptionHeading": "About this product",
     "keySpecsTitle": "Key specs",
-    "warrantyBadge": "60-month warranty",
+    "warrantyBadge": "120-month warranty",
     "specsTitle": "Technical specifications",
     "featuresTitle": "Key features",
     "applicationsTitle": "Applications",
@@ -125,7 +125,7 @@
     "point1Title": "Affordable price",
     "point1Desc": "Efficient manufacturing in China, without the European brand markup. You invest in the technology, not in a costly logo.",
     "point2Title": "Local support",
-    "point2Desc": "A local team for installation, training and fast service, with a 60-month warranty and spare parts available in Romania.",
+    "point2Desc": "A local team for installation, training and fast service, with a 120-month warranty and spare parts available in Romania.",
     "point3Title": "Verified quality",
     "point3Desc": "Free inspection before delivery and CE-certified components built to international standards.",
     "cta": "Send a request"
@@ -207,7 +207,7 @@
     "point1Desc": "We speak the same language and understand what local workshops really need.",
     "point2Title": "Lifetime support",
     "point2Desc": "Technical assistance, training and fast service, in your language.",
-    "point3Title": "60-month warranty",
+    "point3Title": "120-month warranty",
     "point3Desc": "Extended coverage on the equipment and access to spare parts when you need them.",
     "point4Title": "Pre-delivery inspection",
     "point4Desc": "See the machine tested on your material, live or on site, before we ship it.",
@@ -228,7 +228,9 @@
     "officePhoto3Title": "Industrial equipment",
     "officePhoto4Title": "Technical machinery",
     "officePhoto5Title": "Control and assembly",
-    "officePhoto6Title": "Factory in China"
+    "officePhoto6Title": "Factory in China",
+
+    "officeAddressTitle": "LAZIRON Headquarters"
   },
   "Quote": {
     "title": "Request a quote",
@@ -476,14 +478,14 @@
     },
     "warranty": {
       "metaTitle": "Warranty Policy — LAZIRON",
-      "metaDescription": "Extended 60-month warranty for LAZIRON equipment.",
+      "metaDescription": "Extended 120-month warranty for LAZIRON equipment.",
       "title": "Warranty Policy",
       "linkLabel": "Warranty Policy",
-      "lead": "Extended 60-month commercial warranty for LAZIRON equipment.",
+      "lead": "Extended 120-month commercial warranty for LAZIRON equipment.",
       "sections": [
         {
           "heading": "Coverage",
-          "body": "We offer a 60-month commercial warranty on the machine body and critical mechanical components (frame, guides, motors, ball screws). The laser source, cutting head and CNC control system are covered by the original manufacturers' warranties, per their terms."
+          "body": "We offer a 120-month commercial warranty on the machine body and critical mechanical components (frame, guides, motors, ball screws). The laser source, cutting head and CNC control system are covered by the original manufacturers' warranties, per their terms."
         },
         {
           "heading": "What is covered",

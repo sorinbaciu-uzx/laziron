@@ -48,7 +48,7 @@
     "feature2Desc": "Vysoké rychlosti řezání zkracují dobu výroby a zvyšují výkon.",
     "feature3Title": "Nízké náklady",
     "feature3Desc": "Nízká spotřeba energie a minimální údržba pro nízké celkové náklady.",
-    "feature4Title": "Záruka 60 měsíců",
+    "feature4Title": "Záruka 120 měsíců",
     "feature4Desc": "Rozšířené krytí stroje a kritických komponentů pro bezstarostnou investici.",
     "productsTitle": "Naše produkty",
     "productsSubtitle": "Stroje určené pro řezání plechu a kovových trubek.",
@@ -66,7 +66,7 @@
     "laserEyebrow": "Kvalita za dostupnou cenu",
     "laserTitle": "Laserová technologie za férovou cenu",
     "laserSubtitle": "Stejné komponenty, jaké používají velcí výrobci, ve stroji, který si může dovolit každá seriózní dílna. Platíte za technologii, ne za jméno na krytu.",
-    "laserHighlight": "Záruka 60 měsíců na zařízení",
+    "laserHighlight": "Záruka 120 měsíců na zařízení",
     "laserStep1": "Stroj připraven",
     "laserStep2": "Polohování hlavy",
     "laserStep3": "Zaostření paprsku",
@@ -99,7 +99,7 @@
     "overviewTitle": "Přehled",
     "descriptionHeading": "O tomto produktu",
     "keySpecsTitle": "Klíčové parametry",
-    "warrantyBadge": "Záruka 60 měsíců",
+    "warrantyBadge": "Záruka 120 měsíců",
     "specsTitle": "Technické specifikace",
     "featuresTitle": "Hlavní vlastnosti",
     "applicationsTitle": "Aplikace",
@@ -125,7 +125,7 @@
     "point1Title": "Dostupná cena",
     "point1Desc": "Efektivní výroba v Číně bez přirážky evropských značek. Investujete do technologie, ne do drahého loga.",
     "point2Title": "Místní podpora",
-    "point2Desc": "Místní tým pro instalaci, školení a rychlý servis, se zárukou 60 měsíců a náhradními díly k dispozici lokálně.",
+    "point2Desc": "Místní tým pro instalaci, školení a rychlý servis, se zárukou 120 měsíců a náhradními díly k dispozici lokálně.",
     "point3Title": "Ověřená kvalita",
     "point3Desc": "Bezplatná kontrola před dodáním a komponenty s certifikací CE podle mezinárodních norem.",
     "cta": "Odeslat poptávku"
@@ -207,7 +207,7 @@
     "point1Desc": "Mluvíme stejným jazykem a rozumíme potřebám místních dílen.",
     "point2Title": "Podpora po celou dobu životnosti",
     "point2Desc": "Technická pomoc, školení a rychlý servis ve vašem jazyce.",
-    "point3Title": "Záruka 60 měsíců",
+    "point3Title": "Záruka 120 měsíců",
     "point3Desc": "Rozšířené krytí stroje a přístup k náhradním dílům, když je potřebujete.",
     "point4Title": "Kontrola před dodáním",
     "point4Desc": "Stroj otestovaný na vašem materiálu uvidíte živě nebo na místě před expedicí.",
@@ -228,7 +228,9 @@
     "officePhoto3Title": "Průmyslová zařízení",
     "officePhoto4Title": "Technické stroje",
     "officePhoto5Title": "Kontrola a montáž",
-    "officePhoto6Title": "Továrna v Číně"
+    "officePhoto6Title": "Továrna v Číně",
+
+    "officeAddressTitle": "Sídlo LAZIRON"
   },
   "Quote": {
     "title": "Vyžádat nabídku",
@@ -476,14 +478,14 @@
     },
     "warranty": {
       "metaTitle": "Zásady záruky — LAZIRON",
-      "metaDescription": "Prodloužená záruka 60 měsíců na zařízení LAZIRON.",
+      "metaDescription": "Prodloužená záruka 120 měsíců na zařízení LAZIRON.",
       "title": "Zásady záruky",
       "linkLabel": "Zásady záruky",
-      "lead": "Prodloužená obchodní záruka 60 měsíců na zařízení LAZIRON.",
+      "lead": "Prodloužená obchodní záruka 120 měsíců na zařízení LAZIRON.",
       "sections": [
         {
           "heading": "Pokrytí",
-          "body": "Poskytujeme obchodní záruku 60 měsíců na tělo stroje a kritické mechanické komponenty (rám, vedení, motory, kuličkové šrouby). Laserový zdroj, řezací hlava a CNC řídicí systém jsou kryty zárukami původních výrobců podle jejich podmínek."
+          "body": "Poskytujeme obchodní záruku 120 měsíců na tělo stroje a kritické mechanické komponenty (rám, vedení, motory, kuličkové šrouby). Laserový zdroj, řezací hlava a CNC řídicí systém jsou kryty zárukami původních výrobců podle jejich podmínek."
         },
         {
           "heading": "Co je kryto",

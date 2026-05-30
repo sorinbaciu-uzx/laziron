@@ -48,7 +48,7 @@
     "feature2Desc": "Viteze de tăiere ridicate care reduc timpul de producție și cresc randamentul.",
     "feature3Title": "Costuri reduse",
     "feature3Desc": "Consum energetic scăzut și mentenanță minimă pentru un cost total redus.",
-    "feature4Title": "Garanție 60 luni",
+    "feature4Title": "Garanție 120 luni",
     "feature4Desc": "Acoperire extinsă pe echipament și componente critice, pentru o investiție liniștită.",
     "productsTitle": "Produsele noastre",
     "productsSubtitle": "Mașini concepute pentru tăierea tablei și a țevii metalice.",
@@ -66,7 +66,7 @@
     "laserEyebrow": "Calitate accesibilă",
     "laserTitle": "Tehnologie laser, la preț corect",
     "laserSubtitle": "Aceleași componente folosite de marii producători, într-un echipament pe care orice atelier serios și-l permite. Plătești tehnologia, nu numele de pe carcasă.",
-    "laserHighlight": "Garanție 60 luni pe echipament",
+    "laserHighlight": "Garanție 120 luni pe echipament",
     "laserStep1": "Mașina pregătită",
     "laserStep2": "Poziționare cap",
     "laserStep3": "Focalizare fascicul",
@@ -99,7 +99,7 @@
     "overviewTitle": "Prezentare generală",
     "descriptionHeading": "Despre acest produs",
     "keySpecsTitle": "Specificații cheie",
-    "warrantyBadge": "Garanție 60 luni",
+    "warrantyBadge": "Garanție 120 luni",
     "specsTitle": "Specificații tehnice",
     "featuresTitle": "Caracteristici principale",
     "applicationsTitle": "Aplicații",
@@ -125,7 +125,7 @@
     "point1Title": "Preț accesibil",
     "point1Desc": "Fabricație eficientă în China, fără adaosul mărcilor europene. Investești în tehnologie, nu într-un logo scump.",
     "point2Title": "Suport românesc",
-    "point2Desc": "Echipă locală pentru instalare, instruire și service rapid, cu garanție 60 luni și piese disponibile în România.",
+    "point2Desc": "Echipă locală pentru instalare, instruire și service rapid, cu garanție 120 luni și piese disponibile în România.",
     "point3Title": "Calitate verificată",
     "point3Desc": "Inspecție gratuită înainte de livrare și componente certificate CE, conform standardelor internaționale.",
     "cta": "Trimite o cerere"
@@ -207,7 +207,7 @@
     "point1Desc": "Vorbim aceeași limbă și înțelegem nevoile reale ale atelierelor locale.",
     "point2Title": "Suport pe toată durata de viață",
     "point2Desc": "Asistență tehnică, instruire și service rapid, în limba română.",
-    "point3Title": "Garanție 60 luni",
+    "point3Title": "Garanție 120 luni",
     "point3Desc": "Acoperire extinsă pe echipament și acces la piese de schimb atunci când ai nevoie.",
     "point4Title": "Inspecție înainte de livrare",
     "point4Desc": "Vezi mașina testată pe materialul tău, live sau la fața locului, înainte de expediere.",
@@ -228,7 +228,9 @@
     "officePhoto3Title": "Echipamente industriale",
     "officePhoto4Title": "Utilaje tehnice",
     "officePhoto5Title": "Control și asamblare",
-    "officePhoto6Title": "Fabrica din China"
+    "officePhoto6Title": "Fabrica din China",
+
+    "officeAddressTitle": "Sediul LAZIRON"
   },
   "Quote": {
     "title": "Cere o ofertă",
@@ -440,14 +442,14 @@
     },
     "warranty": {
       "metaTitle": "Politica de garanție — LAZIRON",
-      "metaDescription": "Garanție extinsă 60 de luni pentru echipamentele LAZIRON.",
+      "metaDescription": "Garanție extinsă 120 de luni pentru echipamentele LAZIRON.",
       "title": "Politica de garanție",
       "linkLabel": "Politica de garanție",
-      "lead": "Garanție comercială extinsă de 60 de luni pentru echipamentele LAZIRON.",
+      "lead": "Garanție comercială extinsă de 120 de luni pentru echipamentele LAZIRON.",
       "sections": [
         {
           "heading": "Acoperire",
-          "body": "Oferim garanție comercială de 60 de luni pe corpul mașinii și pe componentele mecanice critice (cadru, ghidaje, motoare, șuruburi cu bile). Sursa laser, capul de tăiere și sistemul de control numeric beneficiază de garanția producătorilor originali, conform termenilor lor."
+          "body": "Oferim garanție comercială de 120 de luni pe corpul mașinii și pe componentele mecanice critice (cadru, ghidaje, motoare, șuruburi cu bile). Sursa laser, capul de tăiere și sistemul de control numeric beneficiază de garanția producătorilor originali, conform termenilor lor."
         },
         {
           "heading": "Ce este acoperit",

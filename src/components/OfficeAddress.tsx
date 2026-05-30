@@ -26,10 +26,10 @@ export async function OfficeAddress() {
           </svg>
         </span>
         <h3 className="text-xs font-bold tracking-widest text-gold-dark uppercase">
-          {t("officeTitle")}
+          {t("officeAddressTitle")}
         </h3>
       </div>
-      <p className="mt-5 text-lg font-bold text-ink">Laziron Office</p>
+      <p className="mt-5 text-lg font-bold text-ink">Shenzhen Laziron Laser CNC Co., Ltd.</p>
       <address className="mt-2 text-sm leading-relaxed text-ink/80 not-italic">
         Kerry Plaza Tower 2<br />
         No. 1 Zhong Xin Fourth Road<br />

@@ -40,7 +40,7 @@ export function Header() {
             height={180}
             priority
             quality={95}
-            className="h-20 w-auto sm:h-24 lg:h-28"
+            className="h-24 w-auto sm:h-32 lg:h-30"
           />
         </Link>
 
